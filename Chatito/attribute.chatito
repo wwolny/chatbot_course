@@ -1,0 +1,86 @@
+@[attribute#PriceNomM]
+    cena = price
+    koszt = price
+
+@[attribute#PriceNomF]
+    stawka = price
+
+@[attribute#TimeVerb]
+    trwa = durationInDays
+    dzień = durationInDays
+
+@[attribute#TimeNomM]
+    dzień = durationInDays
+    czas = durationInDays
+    dnie = durationInDays
+    trwanie = durationInDays
+
+
+
+@[attribute_sentence]
+    jakie ma ceny = price
+    cena jest największa = price
+    w jakich cenach = price
+    z jakimi cenami = price
+    o jakiej cenie = price
+    jakie ma ceny = price
+    jaką ma cenę = price
+    jest o jakim koszcie = price
+    jaki ma koszt = price
+    jakie są koszta = price
+    w jakich mieści się kosztach = price
+    kosztami = price
+    jest jakim kosztem = price
+    jakim kosztom = price
+    ile kosztował = price
+    ile by kosztowaliby = price
+    ila ma kosztować = price
+    ile kosztował = price
+    ile kosztowałby = price
+    ile to by kosztowało = price
+    ile kosztowałyby = price
+    jakiemu możemy sie spodziewać kosztowi = price
+    jakiego są kosztu = price
+    ile kosztuje = price
+    ile kosztują = price
+    jakie są koszty = price
+    w jakiej są stawce = price
+    o jakich stawek mówimy = price
+    jaka jest stawka = price
+    jest o jakich stawkach = price
+    ma jakie stawki = price
+    z jaką jest stawką = price
+    ma jaką stawkę = price
+    ma jaka stawkę = price
+    ma jaka stawke = price
+    ma jaką stawke = price
+    jest jakiej wartości = price
+    są o jakich wartościach = price
+    jaką ma wartość = price
+    jaką potrzebuję wiedzę = prerequisites
+    jaka wiedza jest potrzebna = prerequisites
+    jaką potrzeba wiedze = prerequisites
+    jakiej wiedzy wymaga = prerequisites
+    jaką wiedzę potrzeba = prerequisites
+    czego wymaga = prerequisites
+    czego wymagacie = prerequisites
+    czego wymagają = prerequisites
+    czego wymagają = prerequisites
+    jakie mają wymagania = prerequisites
+    są wymagające = prerequisites
+    czego wymagają z wiedzy = prerequisites
+    jakie są wymagania = prerequisites
+    o jakich wymaganiach = prerequisites
+    wymaganiami = prerequisites
+    mają wymaganie = prerequisites
+    mają wymaganiu = prerequisites
+    mają wymagań = prerequisites
+    ile czasu trwają = durationInDays
+    ile trwają dni = durationInDays
+    czy są jednego dnia = durationInDays
+    trwa dniami = durationInDays
+    trwa ile godzin = durationInDays
+    jest w jakich godzinach = durationInDays
+    jak wygląda godzinowo = durationInDays
+    ile trwa = durationInDays
+    jaki ma czas trwania = durationInDays

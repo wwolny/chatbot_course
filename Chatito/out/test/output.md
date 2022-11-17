@@ -1,0 +1,466 @@
+<!-- Generated using Chatette v1.6.2 -->
+
+## intent:compare_entities
+- Cześć chciałbym jaki kursem [wymagaliście](attribute)?
+- Cześć chciałbym napisz jaki kursami [kosztom](attribute)
+- Cześć chcielibyśmy jaki trening [kosztowałoby](attribute)?
+- Cześć jaki treningi [trwania](attribute)
+- chciałbym który kursom [kosztowałyby](attribute)?
+- cześć chciałbym napisz który treningu [stawką](attribute)?
+- cześć poproszę za który szkolenie [wartości](attribute)
+- cześć proszę jaki treningi [trwającemu](attribute)?
+- cześć zwracam się z prośbą napisz za który kursu [trwaj](attribute)
+- dobry wieczór chciałbym jaki szkolenia [trwałaś](attribute)
+- dobry wieczór chciałbym który treningowi [wymagałem](attribute)
+- dobry wieczór szukam który kursów [kosztowaną](attribute)
+- dzień dobry chciałbym stwórz listę który szkolenia [kosztują](attribute)?
+- dzień dobry napisz za który kursy [trwajmy](attribute)?
+- dzień dobry za który kurs [kosztowaniach](attribute)?
+- hej chciałbym wypisz jaki szkoleniom [wymagaliście](attribute)
+- hej poprosimy za który kursami [trwanie](attribute)?
+- hej proszę pokaż mi jaki treningu [trwacie](attribute)?
+- jaki kursu [trwam](attribute)?
+- jaki treningi [trwałybyśmy](attribute)?
+- pokaż jaki szkoleniami [kosztuje](attribute)?
+- pokaż mi [wymaganego](attribute) Dziękuje, dowidzenia!?
+- pokaż mi za który szkoleniem [kosztującego](attribute)?
+- pokaż [trwałybyśmy](attribute) papa?
+- pokaż [wymaganiach](attribute) Dziękuję
+- poprosimy stwórz listę za który kursowi [kosztów](attribute)?
+- poprosimy szukam który treningach [cenie](attribute)?
+- poproszę poszukaj który kursów [minuta](attribute)
+- proszę wypisz za który kursów [trwaniom](attribute)?
+- siemka który treningowi [cenom](attribute)?
+- siemka poprosze szukamy który szkolenia [koszty](attribute)
+- stwórz listę [trwałbym](attribute) pa
+- szukam poszukujemy który szkoleniom [stawek](attribute)
+- szukamy [trwaliście](attribute) dowidzenia?
+- witam prosimy jaki treningom [dniowi](attribute)?
+- wypisz [kosztujmyż](attribute) pa
+- za który kursy [trwaniem](attribute)
+- za który treningowi [wymagaliście](attribute)
+- znajdź który kursie [wymagającym](attribute)
+- zwracam się z prośbą za który treningami [cenami](attribute)?
+
+## intent:query_search
+- [Hadoop](technology)?
+- dobry wieczór chciałbym pokaż mi kursy w [chmury](technology)
+- dobry wieczór szkolenia na temat [Redis](technology)
+- [groovy](technology)?
+- jakie są dostępne szkolenia [nodejs](technology)?
+- jakie są dostępne szkolenia o [DevOps](technology)?
+- jakie są dostępne szkolenia o [Unity](technology)
+- jakie są dostępne treningi [casual](technology)?
+- jakie są dostępne treningi [testowaniu](technology)?
+- kurs w [Spacy](technology) od [2800](min_price) złotych do [1400](max_price)
+- kurs w [zarządzanie](technology) za min [2400](min_price)
+- kursy w [Kibany](technology) za co najmniej [6200](min_price) pln
+- kursy w [OWAS](technology) za co najwyżej [5700](max_price)
+- [microsoft](technology)?
+- pokaż kurs w [TypeScript](technology) za co najmniej [4400](min_price)
+- pokaż mi kursy w [Groovy](technology) po co najmniej [5300](min_price) złoty zł
+- pokaż mi szkolenia w od [4100](min_price) do [1200](max_price)
+- pokaż trening w [testowania](technology) od [6300](min_price) PLN do [4800](max_price)
+- poprosze trening [Tomcat](technology)
+- poszukuję trening za między [5100](min_price) zł, a [5300](max_price) PLN
+- proszę szukam trening o [deep](technology)?
+- [responsive](technology)?
+- siemka chciałbym treningi [mapinfo](technology)?
+- stwórz listę trening w [certified](technology) za co najmniej [4600](min_price)
+- szkolenia [QGIS](technology)
+- szkolenia w [designach](technology) za co najwyżej [2800](max_price)
+- szkolenia w [nodejs](technology) za min [2200](min_price)
+- szkolenie w [c](technology) za min [3600](min_price)
+- szkolenie w [engineers](technology) za co najmniej [5600](min_price)
+- szukam kurs w [continuous](technology) za min [6700](min_price)
+- szukam kursy w [microsoftu](technology) za co najwyżej [4800](max_price)
+- szukam szkolenia, które dotyczą [javę](technology)
+- szukam trening w [WEBAPI](technology) za max [4800](max_price)
+- szukam treningi w [Top](technology) za min [4100](min_price)
+- treningi w [apache](technology) za max [5000](max_price)
+- w [linuksowi](technology)
+- witam chciałbym poszukujemy szkolenie [postgis](technology)
+- witam chcielibyśmy poszukuję szkolenie dotyczący [testerom](technology)?
+- wypisz trening w [testerów](technology) za min [6100](min_price) Pln
+- zwracamy się z prośbą szukam szkolenie o [windowsów](technology)
+
+## intent:query_attribute
+- Czy dotyczący [3](mention) [kosztujmy](attribute)
+- Czy [kosztujcież](attribute) [5](mention)?
+- Czy [kosztującą](attribute) w kursu [5](mention)
+- Czy o [3](mention) [kosztowaniu](attribute)?
+- Czy [stawki](attribute) [2](mention)
+- Czy [wymagałam](attribute) w kurs?
+- Ile [cenami](attribute) [3](mention)
+- Ile [kosztowałbyś](attribute) z trening
+- Ile [wiedz](attribute) [2](mention)?
+- Jaki dotyczący [5](mention) [minuto](attribute)?
+- Jaki [minuta](attribute) [4](mention)?
+- Jaki [trwają](attribute) o szkolenia
+- Jaki [wiedze](attribute) [3](mention)
+- czy [kosztowaniem](attribute) na temat kursami?
+- czy [kosztowałabyś](attribute) w szkoleń
+- czy [trwalibyście](attribute) o tematyce treningi
+- czy w [1](mention) [kosztowane](attribute)?
+- czy [wymaganiach](attribute) na temat szkoleń [4](mention)
+- czy [wymaganych](attribute) na temat szkoleniami
+- czy [wymagałby](attribute) o kursom [4](mention)
+- ile o [2](mention) [wymagająca](attribute)
+- ile w [2](mention) [cen](attribute)
+- jaki [cenach](attribute) o kursami
+- jaki [kosztowanie](attribute) w treningiem [3](mention)
+- jaki [kosztowałaby](attribute) o kursie?
+- jaki na temat [5](mention) [kosztowaniach](attribute)
+- jaki o [3](mention) [trwający](attribute)?
+- jaki [trwającymi](attribute) [1](mention)?
+- jaki [wymaganiem](attribute) dotyczący szkolenia?
+- jaki [wymaganiu](attribute) na temat trening?
+- jaki [wymagałam](attribute) o treningowi
+- który [dniach](attribute) w treningami
+- który [dniem](attribute) [3](mention)
+- który dotyczący [5](mention) [koszt](attribute)
+- który o tematyce [5](mention) [kosztowaniom](attribute)?
+- który [trwali](attribute) o trening
+- który [trwaliście](attribute) z treningów
+- który w [3](mention) [wymagali](attribute)?
+- który [wartości](attribute) [5](mention)
+- który [wiedzo](attribute) o tematyce szkolenia
+
+## intent:query_entities
+- Chciałbym dowiedzieć się więcej o kurs [4](mention)
+- Chciałbym dowiedzieć się więcej o szkolennie [5](mention)
+- Intersuje mnie kurs [2](mention).
+- czy mógłbyś napisz szkoleniom?
+- czy mógłbyś pokaż mi kursie?
+- hej szukamy treningi?
+- pokaż mi kursom?
+- pokaż szkoleniach?
+- poszukaj szkolenie
+- poszukujemy kursami?
+- poszukujemy szkoleniem?
+- poszukujemy treningach?
+- poszukuję szkoleniach?
+- proszę poszukaj treningach?
+- stwórz listę szkoleniem?
+- stwórz listę szkoleniu?
+- szukam pokaż kursie?
+- szukam poszukaj kurs
+- szukam treningach?
+- szukamy kursu?
+
+## synonym:all
+- wszystko
+- wszystkie informacje
+- wszystkiego
+- wszystkie
+- wszystkiemu
+- wszystkim informacjom
+
+## synonym:price
+- kosztująca
+- kosztuj
+- kosztów
+- cenom
+- kosztujmy
+- wartością
+- kosztującym
+- kosztowałabyś
+- kosztować
+- ceną
+- kosztowaliby
+- kosztach
+- kosztowałybyście
+- kosztowaniu
+- koszcie
+- kosztujemy
+- kosztami
+- stawka
+- wartość
+- kosztowałbyś
+- kosztując
+- stawką
+- kosztowałoby
+- kosztowanymi
+- stawkami
+- kosztowaniom
+- kosztuję
+- kosztowany
+- kosztował
+- cena
+- kosztowałaś
+- kosztowaniach
+- kosztowałyśmy
+- cenach
+- wartości
+- cen
+- cenie
+- kosztowane
+- kosztowanie
+- kosztujże
+- kosztowanemu
+- kosztowałabym
+- kosztowanej
+- stawkę
+- stawek
+- cenę
+- kosztowałyście
+- kosztującego
+- koszty
+- kosztom
+- kosztowałybyśmy
+- kosztowań
+- kosztowałby
+- kosztującymi
+- kosztowałaby
+- kosztowi
+- kosztujące
+- wartościach
+- kosztowałem
+- kosztuje
+- kosztujcież
+- koszt
+- kosztujeszv
+- kosztowałeś
+- ceno
+- kosztowałyby
+- kosztu
+- kosztowalibyście
+- kosztującą
+- kosztującej
+- stawko
+- kosztowani
+- wartościami
+- kosztowała
+- kosztujący
+- kosztujecie
+- kosztujcie
+- kosztowali
+- kosztowaniami
+- kosztowalibyśmy
+- stawkom
+- kosztują
+- kosztowano
+- kosztowanego
+- kosztowanym
+- kosztowanych
+- kosztowana
+- kosztowaną
+- kosztowałbym
+- stawkach
+- ceny
+- kosztem
+- kosztującemu
+- kosztowaniem
+- koszta
+- kosztujmyż
+- kosztowały
+- stawce
+- cenami
+- kosztowałam
+- kosztujących
+- kosztowania
+- stawki
+- kosztowaliśmy
+- wartościom
+- kosztowaliście
+
+## synonym:prerequisites
+- wymagającą
+- wymagany
+- wymagań
+- wymagałyście
+- wymagajcie
+- wymagajmy
+- wymaganiom
+- wiedzami
+- wymagającego
+- wymagajmyż
+- wymagała
+- wymagane
+- wymagaliby
+- wymagana
+- wymagające
+- wymagania
+- wymagajcież
+- wymagałabym
+- wymagałybyśmy
+- wymaga
+- wymagałaś
+- wymagaliśmy
+- wiedza
+- wymagali
+- wymagających
+- wymagającej
+- wymagały
+- wymaganą
+- wymagałeś
+- wymagałabyś
+- wymagając
+- wymagał
+- wiedze
+- wymaganego
+- wiedzach
+- wymagałem
+- wiedzom
+- wymagającemu
+- wymagającymi
+- wymagano
+- wymagało
+- wymaganie
+- wiedzy
+- wymagającym
+- wiedz
+- wymagalibyśmy
+- wymaganym
+- wymagam
+- wymagający
+- wymagasz
+- wymagacie
+- wymagałaby
+- wiedzą
+- wymaganiach
+- wymaganiami
+- wymagałbyś
+- wymaganiu
+- wymagałbym
+- wiedzo
+- wymagaliście
+- wymagałyśmy
+- wiedzę
+- wymagająca
+- wymagani
+- wymaganymi
+- wymagałybyście
+- wymagałoby
+- wymagać
+- wymagałyby
+- wymaganemu
+- wymagamy
+- wymagałam
+- wymagałby
+- wymaganiem
+- wymaganej
+- wymaganych
+- wymagalibyście
+- wymagaj
+- wymagajże
+- wymagają
+
+## synonym:durationInDays
+- trwajcie
+- dnia
+- godzino
+- trwające
+- czasowi
+- czasem
+- trwać
+- trwająca
+- trwaniu
+- trwałbym
+- trwało
+- minutami
+- trwałyśmy
+- trwajmyż
+- trwałaś
+- trwaniem
+- godzinę
+- czasy
+- dniach
+- trwała
+- godzinami
+- godzin
+- trwającym
+- trwałaby
+- trwalibyście
+- trwam
+- trwaniami
+- trwającej
+- minutach
+- trwałbyś
+- trwajże
+- trwałoby
+- trwały
+- trwający
+- dniu
+- trwaliście
+- minucie
+- czasu
+- minut
+- minutą
+- trwającego
+- godzinach
+- dniem
+- dniom
+- trwanie
+- trwaj
+- trwamy
+- minuty
+- czasami
+- trwajcież
+- trwał
+- trwań
+- trwając
+- trwali
+- trwacie
+- trwających
+- godziną
+- godzinowo
+- trwałabym
+- trwałabyś
+- trwalibyśmy
+- minuta
+- trwałam
+- czasach
+- trwano
+- minutom
+- trwającymi
+- godziny
+- trwałeś
+- godzina
+- trwałby
+- czasom
+- minuto
+- trwałyby
+- trwaniach
+- dni
+- dniami
+- trwaliśmy
+- trwajmy
+- dniowi
+- trwa
+- trwałem
+- trwaliby
+- trwasz
+- trwaniom
+- dnie
+- trwałybyście
+- minutę
+- godzinie
+- trwającemu
+- trwałybyśmy
+- dzień
+- trwałyście
+- trwającą
+- czasów
+- trwania
+- czas
+- czasie
+- trwają
+- godzinom
+
+## synonym:5
+- piąty
+
+## synonym:4
+- czwarty
+
+## synonym:3
+- trzeci
+
+## synonym:2
+- drugi
+
+## synonym:1
+- pierwszy
+
+

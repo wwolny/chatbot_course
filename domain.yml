@@ -1,0 +1,86 @@
+actions:
+- action_compare_entities
+- action_query_attribute
+- action_query_entities
+- action_query_search
+- action_resolve_entity
+- utter_goodbye
+- utter_greet
+- utter_help
+- utter_iamabot
+- utter_ok
+- utter_out_of_scope
+- utter_rephrase
+entities:
+- addressedTo
+- attribute
+- course
+- durationInDays
+- mention
+- prerequisites
+- price
+- technology
+- title
+intents:
+- query_search
+- bye
+- query_attribute
+- resolve_entity
+- greet
+- compare_entities
+- stop
+- query_entities
+- deny
+- affirm
+- bot_challenge:
+    triggers: utter_iamabot
+- help:
+    trigerrs: utter_help
+- out_of_scope:
+    triggers: utter_out_of_scope
+responses:
+  utter_goodbye:
+  - text: Dowidzenia. Zapraszam ponownie.
+  utter_greet:
+  - text: Dzień dobry! Mogę Ci pomóc znaleźć kurs dla Ciebie!
+  - text: Witaj! Jakie kursy Cię intersują?
+  utter_help:
+  - text: Mogę znaleźć dla Ciebie ciekawy kurs informatyczny.
+  utter_iamabot:
+  - text: Jestem chatbotem stworzonym przez Wojciecha Wolnego.
+  utter_ok:
+  - text: Okej
+  utter_out_of_scope:
+  - text: Niestety nie będę mógł Ci w tym pomóc.
+  utter_rephrase:
+  - text: Przepraszam, nie zrozumiałem. Czy mógłbyś powtórzyć?
+  - text: Czy mógłbyś proszę powiedzieć to inaczej? Nie do końca zrozumiałem o co
+      Ci chodzi.
+session_config:
+  carry_over_slots_to_new_session: false
+  session_expiration_time: 0
+slots:
+  addressedTo:
+    type: text
+  attribute:
+    type: text
+  course:
+    type: text
+  durationInDays:
+    type: text
+  listed_items:
+    type: list
+  max_price:
+    type: float
+  mention:
+    type: text
+  min_price:
+    type: float
+  prerequisites:
+    type: text
+  price:
+    type: float
+  technology:
+    type: list
+  title:
+    type: text

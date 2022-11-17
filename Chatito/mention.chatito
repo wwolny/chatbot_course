@@ -1,0 +1,73 @@
+@[mention#Acc]
+    5
+    piąty = 5
+    4
+    czwarty = 4
+    3
+    trzeci = 3
+    2
+    drugi = 2
+    1
+    pierwszy = 1
+    pierwsza = 1
+    druga = 2
+    trzecia = 3
+    czwarta = 4
+    piąta = 5
+    pierwsze = 1
+    drugie = 2
+    trzecie = 3
+    czwarte = 4
+    piąte = 5
+
+@[mention#Loc]
+    1
+    2
+    3
+    4
+    5
+    pierwszym = 1
+    drugim = 2
+    trzecim = 3
+    czwartym = 4
+    piątym = 5
+    pierwszej = 1
+    drugiej = 2
+    trzeciej = 3
+    czwartej = 4
+    piątej = 5
+
+
+@[mention#Dat]
+    1
+    2
+    3
+    4
+    5
+    pierwszemu = 1
+    drugiemu = 2
+    trzeciemu = 3
+    czwartemu = 4
+    piątemu = 5
+    pierwszej = 1
+    drugiej = 2
+    trzeciej = 3
+    czwartej = 4
+    piątej = 5
+
+@[mention#Gen]
+    1
+    2
+    3
+    4
+    5
+    pierwszeego = 1
+    drugiego = 2
+    trzeciego = 3
+    czwartego = 4
+    piątego = 5
+    pierwszej = 1
+    drugiej = 2
+    trzeciej = 3
+    czwartej = 4
+    piątej = 5

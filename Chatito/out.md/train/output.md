@@ -1,0 +1,1469 @@
+<!-- Generated using Chatette v1.6.2 -->
+
+## intent:compare_entities
+- [czy są jednego dnia](attribute)?
+- [ila ma kosztować](attribute)
+- [ile kosztował](attribute)?
+- [ile kosztuje](attribute)
+- [jak wygląda godzinowo](attribute)
+- [jak wygląda godzinowo](attribute)?
+- jaki kurs [czego wymagacie](attribute)
+- jaki kurs [czego wymagają](attribute)?
+- jaki kurs [czy są jednego dnia](attribute)
+- jaki kurs [jak wygląda godzinowo](attribute)
+- jaki kurs [jaka wiedza jest potrzebna](attribute)
+- jaki kurs [jakiego są kosztu](attribute)
+- jaki kurs [jaką potrzeba wiedze](attribute)?
+- jaki kurs [jest jakim kosztem](attribute)?
+- jaki kurs [ma jaka stawkę](attribute)?
+- jaki kurs [mają wymaganiu](attribute)?
+- [jaki ma czas trwania](attribute)?
+- [jaki ma koszt](attribute)
+- [jaki ma koszt](attribute)?
+- jaki trening [ile by kosztowaliby](attribute)
+- jaki trening [ile kosztowałby](attribute)
+- jaki trening [jak wygląda godzinowo](attribute)
+- jaki trening [jaki ma koszt](attribute)
+- jaki trening [jakim kosztom](attribute)
+- jaki trening [jest jakiej wartości](attribute)?
+- jaki trening [jest o jakim koszcie](attribute)?
+- jaki trening [jest w jakich godzinach](attribute)
+- jaki trening [o jakich wymaganiach](attribute)?
+- jaki trening [o jakiej cenie](attribute)
+- jaki trening [trwa dniami](attribute)?
+- [jakie ma ceny](attribute)?
+- jakie szkolenie [czego wymagacie](attribute)
+- jakie szkolenie [ile czasu trwają](attribute)?
+- jakie szkolenie [ile kosztował](attribute)?
+- jakie szkolenie [ile kosztowałyby](attribute)?
+- jakie szkolenie [ile kosztują](attribute)
+- jakie szkolenie [ile trwają dni](attribute)?
+- jakie szkolenie [jak wygląda godzinowo](attribute)
+- jakie szkolenie [jaka jest stawka](attribute)
+- jakie szkolenie [jaka wiedza jest potrzebna](attribute)
+- jakie szkolenie [jaki ma czas trwania](attribute)
+- jakie szkolenie [jakie ma ceny](attribute)?
+- jakie szkolenie [jakie mają wymagania](attribute)
+- jakie szkolenie [jakie są wymagania](attribute)
+- jakie szkolenie [jakiej wiedzy wymaga](attribute)
+- jakie szkolenie [jakim kosztom](attribute)?
+- jakie szkolenie [kosztami](attribute)?
+- jakie szkolenie [mają wymaganiu](attribute)?
+- jakie szkolenie [o jakich wymaganiach](attribute)
+- jakie szkolenie [o jakich wymaganiach](attribute)?
+- jakie szkolenie [trwa dniami](attribute)
+- jakie szkolenie [trwa dniami](attribute)?
+- jakie szkolenie [trwa ile godzin](attribute)
+- jakie szkolenie [w jakich mieści się kosztach](attribute)?
+- [jakie są koszta](attribute)?
+- [jakie są koszty](attribute)
+- [jakiego są kosztu](attribute)
+- [jaką potrzebuję wiedzę](attribute)
+- [jest o jakich stawkach](attribute)?
+- [jest w jakich godzinach](attribute)?
+- które szkolenie [czego wymagają z wiedzy](attribute)
+- które szkolenie [ile czasu trwają](attribute)?
+- które szkolenie [ile kosztują](attribute)
+- które szkolenie [jaka jest stawka](attribute)
+- które szkolenie [jaka wiedza jest potrzebna](attribute)?
+- które szkolenie [jakie ma ceny](attribute)
+- które szkolenie [jakie ma ceny](attribute)?
+- które szkolenie [jakie mają wymagania](attribute)?
+- które szkolenie [jakie są koszty](attribute)
+- które szkolenie [jaką potrzebuję wiedzę](attribute)?
+- które szkolenie [jest jakiej wartości](attribute)?
+- które szkolenie [jest jakim kosztem](attribute)
+- które szkolenie [ma jaką stawke](attribute)
+- które szkolenie [ma jaką stawkę](attribute)
+- które szkolenie [ma jaką stawkę](attribute)?
+- które szkolenie [są wymagające](attribute)?
+- które szkolenie [trwa dniami](attribute)?
+- które szkolenie [w jakiej są stawce](attribute)
+- który kurs [ile kosztowałby](attribute)?
+- który kurs [jaki ma czas trwania](attribute)?
+- który kurs [jakie ma ceny](attribute)
+- który kurs [jakie mają wymagania](attribute)
+- który kurs [jaką ma cenę](attribute)
+- który kurs [jaką wiedzę potrzeba](attribute)
+- który kurs [jest jakim kosztem](attribute)
+- który kurs [trwa ile godzin](attribute)
+- który trening [czego wymaga](attribute)
+- który trening [ile by kosztowaliby](attribute)?
+- który trening [ile trwają dni](attribute)
+- który trening [jak wygląda godzinowo](attribute)?
+- który trening [jaka wiedza jest potrzebna](attribute)?
+- który trening [jakie ma ceny](attribute)?
+- który trening [jakie mają wymagania](attribute)
+- który trening [mają wymagań](attribute)?
+- który trening [o jakiej cenie](attribute)
+- który trening [są o jakich wartościach](attribute)?
+- [ma jaka stawke](attribute)
+- [ma jaka stawke](attribute)?
+- [ma jaka stawkę](attribute)
+- [ma jaką stawke](attribute)
+- [mają wymaganie](attribute)
+- [mają wymagań](attribute)
+- napisz jaki trening [jaką ma cenę](attribute)?
+- napisz jakie szkolenie [czego wymagają](attribute)
+- napisz jakie szkolenie [mają wymaganie](attribute)
+- napisz [jakie są koszta](attribute)
+- napisz [jakiego są kosztu](attribute)
+- napisz które szkolenie [jakie są wymagania](attribute)?
+- napisz który kurs [ila ma kosztować](attribute)?
+- napisz [ma jaką stawke](attribute)?
+- napisz za które szkolenie [ma jaką stawke](attribute)?
+- napisz za które szkolenie [z jakimi cenami](attribute)?
+- napisz za który trening [ma jaka stawkę](attribute)?
+- [o jakich stawek mówimy](attribute)
+- pokaż [czego wymaga](attribute)?
+- pokaż [ile kosztowałyby](attribute)
+- pokaż jaki kurs [z jakimi cenami](attribute)
+- pokaż jaki kurs [z jaką jest stawką](attribute)
+- pokaż jaki trening [czy są jednego dnia](attribute)?
+- pokaż jakie szkolenie [ile by kosztowaliby](attribute)
+- pokaż jakie szkolenie [jaka jest stawka](attribute)
+- pokaż jakie szkolenie [jaką wiedzę potrzeba](attribute)?
+- pokaż jakie szkolenie [jest o jakich stawkach](attribute)?
+- pokaż jakie szkolenie [trwa dniami](attribute)
+- pokaż które szkolenie [jakiemu możemy sie spodziewać kosztowi](attribute)?
+- pokaż które szkolenie [ma jaką stawkę](attribute)?
+- pokaż który trening [jaka jest stawka](attribute)?
+- pokaż który trening [wymaganiami](attribute)?
+- pokaż [mają wymaganie](attribute)
+- pokaż mi [czego wymagają z wiedzy](attribute)?
+- pokaż mi [ile kosztował](attribute)?
+- pokaż mi jaki kurs [jest w jakich godzinach](attribute)?
+- pokaż mi jaki kurs [ma jaką stawke](attribute)
+- pokaż mi jaki trening [o jakich stawek mówimy](attribute)?
+- pokaż mi jakie szkolenie [ile by kosztowaliby](attribute)?
+- pokaż mi jakie szkolenie [ma jaka stawke](attribute)?
+- pokaż mi [jakiego są kosztu](attribute)
+- pokaż mi [jaką ma cenę](attribute)
+- pokaż mi które szkolenie [jaka wiedza jest potrzebna](attribute)
+- pokaż mi które szkolenie [kosztami](attribute)
+- pokaż mi który kurs [ile to by kosztowało](attribute)
+- pokaż mi [ma jaka stawkę](attribute)
+- pokaż mi za który kurs [czego wymagacie](attribute)
+- pokaż mi za który kurs [są wymagające](attribute)?
+- pokaż mi za który kurs [trwa ile godzin](attribute)?
+- pokaż mi za który trening [ile kosztowałyby](attribute)?
+- pokaż [o jakich stawek mówimy](attribute)
+- pokaż za które szkolenie [z jaką jest stawką](attribute)
+- pokaż za który kurs [jest jakiej wartości](attribute)
+- pokaż za który trening [jakie są koszta](attribute)
+- pokaż za który trening [jest o jakich stawkach](attribute)
+- poszukaj [ile kosztują](attribute)
+- poszukaj jaki kurs [jaką potrzeba wiedze](attribute)
+- poszukaj jaki kurs [jaką potrzeba wiedze](attribute)?
+- poszukaj jakie szkolenie [ile kosztowałyby](attribute)
+- poszukaj [jaką ma cenę](attribute)
+- poszukaj [jest jakiej wartości](attribute)?
+- poszukaj które szkolenie [czy są jednego dnia](attribute)
+- poszukaj które szkolenie [ma jakie stawki](attribute)
+- poszukaj [o jakich stawek mówimy](attribute)
+- poszukaj za które szkolenie [o jakich wymaganiach](attribute)?
+- poszukaj za który kurs [czego wymaga](attribute)
+- poszukaj za który kurs [o jakiej cenie](attribute)
+- poszukaj za który trening [jaka jest stawka](attribute)
+- poszukujemy jakie szkolenie [jest w jakich godzinach](attribute)
+- poszukujemy które szkolenie [jaka jest stawka](attribute)?
+- poszukujemy które szkolenie [ma jakie stawki](attribute)?
+- poszukujemy który kurs [jest w jakich godzinach](attribute)?
+- poszukujemy który trening [jest o jakim koszcie](attribute)?
+- poszukujemy [w jakich cenach](attribute)?
+- poszukujemy [w jakich mieści się kosztach](attribute)
+- poszukujemy za które szkolenie [ile kosztowałby](attribute)
+- poszukujemy za które szkolenie [jaki ma koszt](attribute)?
+- poszukujemy za który kurs [czego wymagają z wiedzy](attribute)?
+- poszukuję [ile trwa](attribute)
+- poszukuję [ile trwają dni](attribute)
+- poszukuję jaki kurs [jakie ma ceny](attribute)?
+- poszukuję jaki trening [jest w jakich godzinach](attribute)
+- poszukuję jakie szkolenie [kosztami](attribute)?
+- poszukuję [jest jakim kosztem](attribute)?
+- poszukuję [jest w jakich godzinach](attribute)
+- poszukuję które szkolenie [czy są jednego dnia](attribute)
+- poszukuję które szkolenie [ile kosztuje](attribute)?
+- poszukuję które szkolenie [o jakiej cenie](attribute)?
+- poszukuję które szkolenie [trwa dniami](attribute)
+- poszukuję który trening [z jaką jest stawką](attribute)
+- poszukuję [o jakich stawek mówimy](attribute)
+- poszukuję za które szkolenie [w jakich cenach](attribute)?
+- poszukuję za który kurs [ile trwają dni](attribute)
+- poszukuję za który kurs [jak wygląda godzinowo](attribute)?
+- stwórz listę jaki kurs [ile trwa](attribute)
+- stwórz listę jaki kurs [jest jakiej wartości](attribute)?
+- stwórz listę jaki trening [w jakiej są stawce](attribute)?
+- stwórz listę jakie szkolenie [czego wymagacie](attribute)?
+- stwórz listę które szkolenie [ile kosztowałyby](attribute)
+- stwórz listę który kurs [czego wymaga](attribute)?
+- stwórz listę który trening [czego wymagają](attribute)?
+- stwórz listę który trening [trwa ile godzin](attribute)
+- stwórz listę który trening [w jakich mieści się kosztach](attribute)
+- stwórz listę [ma jaką stawke](attribute)
+- stwórz listę za które szkolenie [jaką potrzeba wiedze](attribute)
+- stwórz listę za który trening [jakiej wiedzy wymaga](attribute)?
+- stwórz listę za który trening [o jakiej cenie](attribute)?
+- szukam [jakie mają wymagania](attribute)?
+- szukam jakie szkolenie [jaka jest stawka](attribute)
+- szukam [jaką ma cenę](attribute)
+- szukam [jest w jakich godzinach](attribute)
+- szukam które szkolenie [mają wymagań](attribute)
+- szukam który kurs [jaką ma wartość](attribute)?
+- szukam który kurs [z jaką jest stawką](attribute)
+- szukam który trening [czego wymagacie](attribute)?
+- szukam który trening [jaki ma koszt](attribute)?
+- szukam który trening [jest o jakich stawkach](attribute)?
+- szukam [w jakich cenach](attribute)
+- szukam za które szkolenie [ile to by kosztowało](attribute)?
+- szukam za które szkolenie [jaka jest stawka](attribute)
+- szukam za które szkolenie [jaka jest stawka](attribute)?
+- szukam za które szkolenie [jakie mają wymagania](attribute)?
+- szukam za które szkolenie [z jakimi cenami](attribute)?
+- szukam za który kurs [są o jakich wartościach](attribute)?
+- szukam za który trening [czego wymagają](attribute)
+- szukamy [jaka jest stawka](attribute)
+- szukamy jaki kurs [ile czasu trwają](attribute)
+- szukamy jaki trening [jest o jakich stawkach](attribute)?
+- szukamy jaki trening [o jakiej cenie](attribute)
+- szukamy jaki trening [z jaką jest stawką](attribute)?
+- szukamy które szkolenie [czego wymagają z wiedzy](attribute)
+- szukamy które szkolenie [mają wymagań](attribute)
+- szukamy który kurs [mają wymaganie](attribute)?
+- szukamy [są wymagające](attribute)?
+- szukamy za które szkolenie [jakim kosztom](attribute)
+- [trwa ile godzin](attribute)?
+- [w jakich cenach](attribute)?
+- [wymaganiami](attribute)
+- wypisz jaki kurs [jakie mają wymagania](attribute)?
+- wypisz [jaki ma koszt](attribute)?
+- wypisz jaki trening [ile kosztował](attribute)
+- wypisz jakie szkolenie [ile kosztują](attribute)?
+- wypisz które szkolenie [cena jest największa](attribute)
+- wypisz które szkolenie [ile trwa](attribute)
+- wypisz który kurs [jaki ma czas trwania](attribute)
+- wypisz który kurs [mają wymagań](attribute)
+- wypisz który kurs [mają wymagań](attribute)?
+- wypisz za które szkolenie [ile czasu trwają](attribute)
+- wypisz za które szkolenie [jaki ma koszt](attribute)
+- wypisz za który kurs [jest jakiej wartości](attribute)?
+- [z jakimi cenami](attribute)?
+- za które szkolenie [czego wymagają](attribute)
+- za które szkolenie [czego wymagają z wiedzy](attribute)
+- za które szkolenie [czego wymagają](attribute)?
+- za które szkolenie [ile kosztował](attribute)?
+- za które szkolenie [ile kosztowałby](attribute)?
+- za które szkolenie [ile kosztuje](attribute)?
+- za które szkolenie [ile trwa](attribute)?
+- za które szkolenie [jaki ma czas trwania](attribute)?
+- za które szkolenie [jakie ma ceny](attribute)?
+- za które szkolenie [jakie są koszta](attribute)
+- za które szkolenie [jakiej wiedzy wymaga](attribute)
+- za które szkolenie [jakiej wiedzy wymaga](attribute)?
+- za które szkolenie [jakiemu możemy sie spodziewać kosztowi](attribute)?
+- za które szkolenie [jest o jakim koszcie](attribute)
+- za które szkolenie [ma jakie stawki](attribute)?
+- za które szkolenie [ma jaką stawkę](attribute)?
+- za które szkolenie [o jakich stawek mówimy](attribute)
+- za które szkolenie [o jakich stawek mówimy](attribute)?
+- za które szkolenie [w jakich mieści się kosztach](attribute)
+- za które szkolenie [wymaganiami](attribute)
+- za który kurs [ile czasu trwają](attribute)?
+- za który kurs [ile trwają dni](attribute)
+- za który kurs [ile trwają dni](attribute)?
+- za który kurs [jaki ma czas trwania](attribute)
+- za który kurs [jaki ma koszt](attribute)
+- za który kurs [jakiej wiedzy wymaga](attribute)?
+- za który kurs [jest jakiej wartości](attribute)
+- za który kurs [jest jakiej wartości](attribute)?
+- za który kurs [w jakiej są stawce](attribute)
+- za który kurs [z jaką jest stawką](attribute)?
+- za który trening [czego wymaga](attribute)?
+- za który trening [ile by kosztowaliby](attribute)?
+- za który trening [ile kosztują](attribute)?
+- za który trening [jaka jest stawka](attribute)?
+- za który trening [jaki ma czas trwania](attribute)
+- za który trening [jakie są koszta](attribute)?
+- za który trening [jakiego są kosztu](attribute)?
+- za który trening [jakiemu możemy sie spodziewać kosztowi](attribute)?
+- za który trening [jaką ma wartość](attribute)
+- za który trening [ma jakie stawki](attribute)
+- za który trening [trwa dniami](attribute)
+- za który trening [w jakich mieści się kosztach](attribute)?
+- za który trening [w jakiej są stawce](attribute)?
+- znajdź jaki kurs [mają wymagań](attribute)
+- znajdź jakie szkolenie [jaka jest stawka](attribute)
+- znajdź jakie szkolenie [jaką ma cenę](attribute)?
+- znajdź które szkolenie [ile kosztuje](attribute)
+- znajdź który kurs [jakiej wiedzy wymaga](attribute)?
+- znajdź który kurs [jaką wiedzę potrzeba](attribute)?
+- znajdź który trening [czy są jednego dnia](attribute)?
+- znajdź [są wymagające](attribute)?
+- znajdź za które szkolenie [ile to by kosztowało](attribute)
+- znajdź za które szkolenie [mają wymaganiu](attribute)?
+
+## intent:query_search
+- [AWS](technology)?
+- [Analiza Tekstu](technology)?
+- [Assembler](technology)
+- [CSS](technology)
+- [Certified](technology)?
+- [Chmura](technology)
+- [Dapps](technology)?
+- [ExpressJS](technology)?
+- [FaaS](technology)?
+- [Gatsby](technology)?
+- [Hyper](technology)
+- [JIRA](technology)?
+- [JavaScript](technology)
+- [Microsoft](technology)?
+- [OCA](technology)?
+- [Prototypowanie](technology)
+- [SCRUM](technology)?
+- [Swift](technology)?
+- [Testowanie](technology)
+- [Web](technology)
+- [Zarządzanie](technology)?
+- [administratorze](technology)
+- [assemblerach](technology)?
+- [businessu](technology)
+- chciałbym kurs dotyczący [uml](technology)?
+- chciałbym kursy na temat [developerze](technology)
+- chcielibyśmy kursy o [assemblera](technology)
+- [continuous](technology)
+- cześć chciałbym szkolenia o tematyce [Communication](technology)?
+- cześć chciałbym trening o tematyce [Ionic](technology)
+- cześć szkolenie na temat [architektur](technology)
+- cześć szukam napisz szkolenie o [linuksie](technology)
+- [designie](technology)
+- dotyczący [CSS](technology)
+- dotyczący [angular](technology)?
+- dzień dobry kurs w [web](technology)
+- dzień dobry napisz szkolenie z [muli](technology)?
+- dzień dobry pokaż mi treningi [dsl](technology)?
+- dzień dobry szukam poszukaj treningi na temat [Enterprise](technology)?
+- [ethereum](technology)?
+- [firebase](technology)
+- [git](technology)?
+- hej chcielibyśmy kursy dotyczący [Python](technology)?
+- hej poprosimy szukamy szkolenie [services](technology)
+- hej prosimy pokaż mi kursy na temat [Responsive](technology)?
+- hej prosimy pokaż mi kursy z [MapInfo](technology)
+- hej proszę wypisz kursy [CSS](technology)?
+- hej szkolenie [UX](technology)
+- hej szukam poszukujemy kursy o tematyce [MongoDB](technology)?
+- hej trening z [Ansible](technology)?
+- jakie są dostępne kursy [Linux](technology)
+- jakie są dostępne kursy [designach](technology)
+- jakie są dostępne kursy na temat [User](technology)
+- jakie są dostępne szkolenia [Card](technology)?
+- jakie są dostępne szkolenia [ISTQB](technology)
+- jakie są dostępne szkolenia [PostGIS](technology)
+- jakie są dostępne szkolenia [QGIS](technology)?
+- jakie są dostępne szkolenia [kotlinie](technology)
+- jakie są dostępne szkolenia na temat [GeoServera](technology)
+- jakie są dostępne szkolenia na temat [designie](technology)?
+- jakie są dostępne szkolenia w [OpenLayers](technology)
+- jakie są dostępne szkolenia w [analytics](technology)
+- jakie są dostępne szkolenia z [kryptografiami](technology)
+- jakie są dostępne treningi [MVC](technology)
+- jakie są dostępne treningi [Modelowanie](technology)?
+- jakie są dostępne treningi [PSM](technology)?
+- jakie są dostępne treningi [angular](technology)?
+- jakie są dostępne treningi na temat [JIRA](technology)?
+- jakie są dostępne treningi o [EJB](technology)?
+- jakie są dostępne treningi [r](technology)?
+- jakie są dostępne treningi w [Kibany](technology)
+- jakie są dostępne treningi w [pythonie](technology)
+- [jmeter](technology)?
+- [kryptografią](technology)
+- kurs dotyczący [Tomcat](technology)
+- kurs [postgis](technology)
+- kurs w [Hyper](technology) za co najwyżej [6800](max_price)
+- kurs w [Solidity](technology) za co najmniej [7100](min_price) Pln
+- kurs w [UX](technology) za co najwyżej [5500](max_price) pln
+- kurs w [assemblerach](technology) za min [7200](min_price)
+- kurs w [camel](technology) po co najmniej [5900](min_price) pln
+- kurs w [mule](technology) za co najwyżej [2800](max_price)
+- kurs w [prototypowania](technology) za co najwyżej [3700](max_price) Pln
+- kurs w [resource](technology) za min [1400](min_price)
+- kurs w [webapi](technology) za min [4700](min_price)
+- kurs z [Engineers](technology)?
+- kurs za między [1900](min_price) PLN, a [3600](max_price) ziko
+- kurs za między [1900](min_price), a [6700](max_price) Pln
+- kurs za między [4300](min_price), a [1400](max_price)
+- kurs za między [5700](min_price) złotych, a [5600](max_price)
+- kurs za między [7100](min_price) Pln, a [6500](max_price)
+- kurs, które dotyczą [jenkinsowi](technology)
+- kursy na temat [confluence](technology)?
+- kursy w [Angular](technology) za co najwyżej [2200](max_price)
+- kursy w [Bazy Danych](technology) po co najmniej [2600](min_price)
+- kursy w [Project](technology) za min [3700](min_price)
+- kursy w [Python](technology) za co najmniej [6100](min_price) pln
+- kursy w [Testing](technology) za max [4700](max_price) zł
+- kursy w [apache'em](technology) od [5600](min_price) do [7300](max_price)
+- kursy w [businessy](technology) za co najwyżej [5400](max_price) pln
+- kursy w [deep](technology) za co najwyżej [7000](max_price) pln
+- kursy w [experience](technology) za co najmniej [2600](min_price) złoty
+- kursy w [faces](technology) za max [2200](max_price) pln
+- kursy w [intelligence](technology) za co najwyżej [1700](max_price) Pln
+- kursy w od [1100](min_price) do [3400](max_price)
+- kursy w od [2100](min_price) do [1800](max_price) ziko
+- kursy w od [2600](min_price) PLN do [5100](max_price)
+- kursy w od [2800](min_price) zł do [1800](max_price)
+- kursy w od [3400](min_price) do [2500](max_price)
+- kursy w [testerowi](technology) za min [1100](min_price)
+- kursy w [user](technology) po co najmniej [2400](min_price) Pln
+- kursy za między [4400](min_price), a [6900](max_price)
+- kursy, które dotyczą
+- kursy, które dotyczą [Python](technology)
+- [managemencie](technology)?
+- [mulami](technology)?
+- na temat [Services](technology)?
+- na temat [magistrala](technology)
+- napisz kurs w [hibernate](technology)
+- napisz szkolenia w [ansible](technology) za co najmniej [1600](min_price)
+- napisz szkolenie w [swiftem](technology) za co najwyżej [3100](max_price)
+- napisz trening w [Gatsby](technology) za max [4500](max_price)
+- napisz trening, które dotyczą [pythonie](technology)
+- napisz treningi o [experience](technology)?
+- napisz treningi w [microsofcie](technology) za co najmniej [2400](min_price) ziko
+- o [OpenLayers](technology)
+- o tematyce [Foundations](technology)
+- o tematyce [GIS](technology)?
+- o tematyce [Geoserver](technology)?
+- o tematyce [gicie](technology)?
+- pokaż kurs [Core](technology)?
+- pokaż kurs w [designami](technology) za co najmniej [4800](min_price)
+- pokaż kurs w [mulach](technology) po co najmniej [2600](min_price) zł
+- pokaż kurs w od [1100](min_price) do [1800](max_price)
+- pokaż kurs za między [1600](min_price) złotych, a [2500](max_price) ziko
+- pokaż kursy w [ReactJS](technology) po co najmniej [6500](min_price) zł
+- pokaż kursy w [Tester](technology) za max [6700](max_price)
+- pokaż kursy w [Web](technology) za co najwyżej [4800](max_price)
+- pokaż kursy za między [6800](min_price), a [3900](max_price)
+- pokaż mi kurs w [development](technology) za co najwyżej [4400](max_price)
+- pokaż mi kurs w [gicie](technology) za min [6800](min_price)
+- pokaż mi kursy za między [6700](min_price), a [1700](max_price) złoty
+- pokaż mi kursy, które dotyczą
+- pokaż mi szkolenia za między [2300](min_price) ziko, a [7000](max_price)
+- pokaż mi trening w [Przetwarzanie Tekstu](technology) za co najwyżej [5600](max_price)
+- pokaż mi trening z [oracle](technology)?
+- pokaż mi trening za między [4100](min_price), a [4200](max_price) złoty
+- pokaż mi trening, które dotyczą
+- pokaż mi treningi w [Przetwarzanie Tekstu](technology) za co najwyżej [1400](max_price)
+- pokaż mi treningi, które dotyczą [assemblerem](technology)
+- pokaż szkolenia o [Tomcat](technology)?
+- pokaż szkolenia w [Linux](technology) za min [1600](min_price) ziko
+- pokaż szkolenie w [Casual](technology) po co najmniej [4900](min_price)
+- pokaż szkolenie w [git](technology) za co najwyżej [4600](max_price) pln
+- pokaż treningi w od [2300](min_price) do [4000](max_price) złoty
+- pokaż treningi w od [4000](min_price) do [7200](max_price)
+- pokaż treningi w [testowania](technology) za co najwyżej [4500](max_price) zł
+- poszukaj kurs w [Communication](technology) za co najmniej [1200](min_price)
+- poszukaj szkolenia w [FaaS](technology) za co najwyżej [6800](max_price) PLN
+- poszukaj szkolenia w [ServiceMix](technology) od [3400](min_price) do [7300](max_price) PLN
+- poszukaj szkolenia, które dotyczą [Devops](technology)
+- poszukaj szkolenie w [apache'a](technology) za min [4900](min_price) Pln
+- poszukaj szkolenie w [kotlin](technology) za min [5700](min_price) ziko
+- poszukaj szkolenie za między [4100](min_price) ziko, a [3900](max_price) złotych
+- poszukaj trening w [Administrator](technology) za co najmniej [6600](min_price)
+- poszukaj trening w [QGIS](technology) po co najmniej [4800](min_price) złotych
+- poszukaj trening w [linuxa](technology) za min [1400](min_price) złoty
+- poszukujemy kurs w [Driven](technology) za min [2400](min_price) ziko
+- poszukujemy kursy, które dotyczą
+- poszukujemy szkolenia w [Web](technology) za min [4100](min_price)
+- poszukujemy trening w [Cassandra](technology) po co najmniej [5100](min_price)
+- poszukujemy trening w [modelowanie](technology) po co najmniej [5600](min_price) Pln
+- poszukujemy trening, które dotyczą
+- poszukuję kurs w [JEE](technology) za min [2500](min_price)
+- poszukuję kursy w [Developer](technology) za min [5500](min_price)
+- poszukuję kursy w [Framework](technology) za max [7000](max_price) zł
+- poszukuję szkolenia w [card](technology) za co najmniej [2700](min_price) Pln
+- poszukuję szkolenia w [spatial](technology) po co najmniej [3900](min_price)
+- poszukuję szkolenie w [driven](technology) po co najmniej [5400](min_price) ziko
+- poszukuję trening dotyczący [Certified](technology)
+- poszukuję trening w [testowaniu](technology) za max [6600](max_price)
+- poszukuję treningi, które dotyczą [Refaktoryzacji](technology)
+- [redisie](technology)?
+- [refaktoryzacja](technology)
+- siemka szukam treningi o tematyce [OCP](technology)?
+- stwórz listę kursy w [kryptografie](technology) za min [4500](min_price)
+- stwórz listę kursy, które dotyczą
+- stwórz listę szkolenia w [webgis](technology) za co najmniej [5200](min_price) złoty
+- stwórz listę szkolenie w [Prezentacja](technology) za co najmniej [1500](min_price)
+- stwórz listę trening w [User](technology) za min [4400](min_price)
+- stwórz listę trening w [kryptografią](technology) za min [5200](min_price) złoty
+- stwórz listę trening w [tester](technology) po co najmniej [3500](min_price) ziko
+- szkolenia dotyczący [linuksem](technology)
+- szkolenia [engineers](technology)?
+- szkolenia w [Ionic](technology)?
+- szkolenia w [Security](technology) za co najmniej [4000](min_price)
+- szkolenia w [Spacy](technology) za min [6200](min_price)
+- szkolenia w [androida](technology) od [3300](min_price) zł do [2700](max_price)
+- szkolenia w [architekturo](technology) za max [3400](max_price)
+- szkolenia w [microsoft](technology) za co najmniej [1200](min_price) Pln
+- szkolenia w [microsoftowi](technology) za co najmniej [2900](min_price) zł
+- szkolenia w od [2600](min_price) pln do [5300](max_price)
+- szkolenia w [sparkowi](technology) za co najmniej [5800](min_price)
+- szkolenia za między [5000](min_price) Pln, a [6000](max_price)
+- szkolenia, które dotyczą
+- szkolenia, które dotyczą [mulami](technology)
+- szkolenie w [CCPM](technology) po co najmniej [2300](min_price) pln
+- szkolenie w [Prezentacja](technology) za co najmniej [5200](min_price) ziko
+- szkolenie w [Puppet](technology)
+- szkolenie w [Testing](technology) za co najmniej [4500](min_price)
+- szkolenie w [angularjs](technology) po co najmniej [3300](min_price)
+- szkolenie w [camel](technology) za min [5100](min_price)
+- szkolenie w [cassandra](technology) za min [5100](min_price)
+- szkolenie w [chmuro](technology) za min [1400](min_price)
+- szkolenie w [linuksa](technology) za co najmniej [2500](min_price)
+- szkolenie w [os](technology) po co najmniej [6900](min_price) złotych
+- szkolenie z [Git](technology)?
+- szkolenie za między [1700](min_price) złoty, a [5800](max_price)
+- szkolenie za między [3500](min_price), a [1900](max_price) Pln
+- szkolenie, które dotyczą
+- szukam kurs na temat [reaktywne](technology)
+- szukam kursy w [SCRUM](technology)?
+- szukam szkolenia za między [5400](min_price), a [4200](max_price)
+- szukam szkolenie w [ArcGIS](technology) za min [1600](min_price)
+- szukam szkolenie w [BPMN](technology) za max [6800](max_price) złotych
+- szukam szkolenie w [asp](technology) za co najwyżej [1300](max_price)
+- szukam szkolenie za między [3200](min_price) ziko, a [7200](max_price)
+- szukam szkolenie, które dotyczą [chmurze](technology)
+- szukam trening w [Ionic](technology) za min [5100](min_price)
+- szukamy kursy w [postgis](technology) za co najwyżej [4300](max_price)
+- szukamy szkolenia, które dotyczą
+- szukamy szkolenie w [Prototypowanie](technology) po co najmniej [4300](min_price) pln
+- szukamy szkolenie, które dotyczą
+- szukamy trening w [java](technology) za co najwyżej [5000](max_price) złotych
+- szukamy trening w od [6700](min_price) do [4300](max_price)
+- szukamy trening za między [1500](min_price), a [2600](max_price) zł
+- szukamy trening, które dotyczą
+- szukamy treningi w [Services](technology) za min [4100](min_price)
+- trening o tematyce [Portfolio](technology)
+- trening w [BPMN2](technology) za max [3800](max_price)
+- trening w [FPS](technology) za max [1300](max_price) złoty
+- trening w [IoT](technology) za co najmniej [4200](min_price)
+- trening w [JBoss](technology) za max [1900](max_price) ziko
+- trening w [MVC](technology) za co najmniej [5500](min_price) Pln
+- trening w [Scala](technology) za max [4600](max_price) pln
+- trening w [Swift](technology) za min [4900](min_price) ziko
+- trening w [architekturo](technology) za co najmniej [3700](min_price)
+- trening w [architektury](technology) za co najwyżej [5000](max_price)
+- trening w od [4200](min_price) do [4900](max_price) Pln
+- trening w od [4800](min_price) złotych do [5600](max_price)
+- trening w [spark](technology) po co najmniej [6200](min_price)
+- trening w [testowania](technology) za co najmniej [2000](min_price) Pln
+- trening w [testowanie](technology) po co najmniej [4900](min_price)
+- trening w [windowsa](technology) za min [1500](min_price)
+- trening, które dotyczą
+- trening, które dotyczą [businessie](technology)
+- treningi w [BI](technology) za max [3900](max_price) złoty
+- treningi w [Confluence](technology) za co najmniej [3900](min_price)
+- treningi w [Kotlin](technology) za max [1600](max_price)
+- treningi w [MVC](technology) za min [5800](min_price) pln
+- treningi w [Magistrala](technology) od [2700](min_price) do [2400](max_price)
+- treningi w [Power BI](technology) za co najwyżej [4400](max_price) PLN
+- treningi w [Prototypowanie](technology) za co najmniej [5800](min_price)
+- treningi w [Reaktywne](technology) za max [6400](max_price) zł
+- treningi w [WebFlux](technology) za co najwyżej [2000](max_price)
+- treningi w [assemblerami](technology) za co najwyżej [2000](max_price)
+- treningi w [assemblerom](technology) po co najmniej [1500](min_price)
+- treningi w [developery](technology) po co najmniej [4800](min_price)
+- treningi w [javo](technology) po co najmniej [1600](min_price) Pln
+- treningi w [javy](technology) za min [2600](min_price)
+- treningi w [testowaniach](technology) za max [4900](max_price)
+- treningi za między [1800](min_price) zł, a [6000](max_price) zł
+- treningi za między [2700](min_price), a [6700](max_price)
+- treningi za między [4200](min_price) złotych, a [2100](max_price)
+- treningi za między [4600](min_price) pln, a [3000](max_price) złoty
+- treningi, które dotyczą
+- treningi, które dotyczą [architektura](technology)
+- [ux](technology)?
+- w [Refaktoryzacji](technology)?
+- w [pythonem](technology)?
+- witam poproszę pokaż mi kurs dotyczący [foundation](technology)
+- witam zwracam się z prośbą poszukujemy kursy [Portfolio](technology)?
+- wypisz kursy w [foundation](technology) po co najmniej [6200](min_price) pln
+- wypisz szkolenia w [Modelowanie](technology) od [4600](min_price) ziko do [4100](max_price)
+- wypisz szkolenia w [administratora](technology) za co najmniej [5700](min_price)
+- wypisz trening w [Hadoop](technology) za min [1300](min_price) ziko
+- wypisz trening w [PWA](technology) za max [7300](max_price)
+- z [expressjs](technology)?
+- znajdź kurs w [BPMN2](technology) za co najmniej [1100](min_price) PLN
+- znajdź kursy w [oracle](technology) za min [4900](min_price)
+- znajdź kursy w [ssl](technology) za min [7200](min_price) zł
+- znajdź kursy z [Engineers](technology)?
+- znajdź szkolenia w [R](technology) po co najmniej [4500](min_price) zł
+- znajdź szkolenia w [apache](technology) za co najwyżej [6800](max_price)
+- znajdź szkolenie w [ESB](technology) po co najmniej [5800](min_price) złotych
+- znajdź treningi w [Analytics](technology) po co najmniej [3800](min_price) ziko
+- znajdź treningi za między [3200](min_price), a [5400](max_price) PLN
+- zwracam się z prośbą szukamy szkolenia o [typescript](technology)?
+- zwracamy się z prośbą kurs [Developer](technology)?
+- zwracamy się z prośbą trening dotyczący [FaaS](technology)
+
+## intent:query_attribute
+- [cena jest największa](attribute) [2](mention)?
+- [cena jest największa](attribute) [pierwszy](mention)
+- [cena jest największa](attribute) trening [1](mention)
+- [czego wymaga](attribute) [4](mention)
+- [czego wymaga](attribute) [5](mention)?
+- [czego wymaga](attribute) [czwarty](mention)?
+- [czego wymaga](attribute) trening [trzeci](mention)
+- [czego wymaga](attribute) trening [trzeci](mention)?
+- [czego wymagacie](attribute) [4](mention)?
+- [czego wymagacie](attribute) kurs [2](mention)
+- [czego wymagacie](attribute) [pierwszy](mention)?
+- [czego wymagacie](attribute) trening [trzeci](mention)
+- [czego wymagają](attribute) [1](mention)
+- [czego wymagają](attribute) [2](mention)
+- [czego wymagają](attribute) [2](mention)?
+- [czego wymagają](attribute) [drugi](mention)
+- [czego wymagają](attribute) kurs [4](mention)
+- [czego wymagają](attribute) kurs [drugi](mention)
+- [czego wymagają](attribute) [pierwszy](mention)
+- [czego wymagają](attribute) [piąty](mention)
+- [czego wymagają](attribute) szkolennie [2](mention)
+- [czego wymagają](attribute) szkolennie [5](mention)?
+- [czego wymagają](attribute) szkolennie [pierwszy](mention)?
+- [czego wymagają z wiedzy](attribute) kurs [drugi](mention)
+- [czego wymagają z wiedzy](attribute) kurs [trzeci](mention)
+- [czego wymagają z wiedzy](attribute) szkolennie [piąty](mention)
+- [czy są jednego dnia](attribute) [drugi](mention)?
+- [czy są jednego dnia](attribute) kurs [czwarty](mention)
+- [czy są jednego dnia](attribute) [piąty](mention)
+- [ila ma kosztować](attribute) [4](mention)
+- [ila ma kosztować](attribute) [5](mention)?
+- [ila ma kosztować](attribute) [drugi](mention)
+- [ila ma kosztować](attribute) kurs [pierwszy](mention)
+- [ila ma kosztować](attribute) kurs [trzeci](mention)
+- [ila ma kosztować](attribute) trening [1](mention)?
+- [ila ma kosztować](attribute) trening [2](mention)?
+- [ila ma kosztować](attribute) [trzeci](mention)?
+- [ile by kosztowaliby](attribute) [3](mention)
+- [ile by kosztowaliby](attribute) [3](mention)?
+- [ile by kosztowaliby](attribute) [pierwszy](mention)
+- [ile czasu trwają](attribute) [3](mention)
+- [ile czasu trwają](attribute) [3](mention)?
+- [ile czasu trwają](attribute) [4](mention)?
+- [ile czasu trwają](attribute) kurs [3](mention)
+- [ile czasu trwają](attribute) szkolennie [4](mention)
+- [ile czasu trwają](attribute) trening [piąty](mention)
+- [ile kosztował](attribute) [1](mention)
+- [ile kosztował](attribute) [1](mention)?
+- [ile kosztował](attribute) [2](mention)
+- [ile kosztował](attribute) [3](mention)
+- [ile kosztował](attribute) [4](mention)
+- [ile kosztował](attribute) [czwarty](mention)
+- [ile kosztował](attribute) szkolennie [2](mention)
+- [ile kosztował](attribute) szkolennie [trzeci](mention)
+- [ile kosztował](attribute) [trzeci](mention)
+- [ile kosztował](attribute) [trzeci](mention)?
+- [ile kosztowałby](attribute) szkolennie [5](mention)?
+- [ile kosztowałyby](attribute) kurs [1](mention)?
+- [ile kosztowałyby](attribute) kurs [4](mention)
+- [ile kosztowałyby](attribute) [pierwszy](mention)?
+- [ile kosztowałyby](attribute) trening [4](mention)
+- [ile kosztuje](attribute) [3](mention)
+- [ile kosztuje](attribute) szkolennie [5](mention)?
+- [ile kosztuje](attribute) szkolennie [czwarty](mention)
+- [ile kosztują](attribute) szkolennie [1](mention)
+- [ile kosztują](attribute) szkolennie [pierwszy](mention)?
+- [ile kosztują](attribute) trening [czwarty](mention)?
+- [ile kosztują](attribute) trening [pierwszy](mention)
+- [ile kosztują](attribute) [trzeci](mention)
+- [ile to by kosztowało](attribute) kurs [3](mention)
+- [ile to by kosztowało](attribute) trening [5](mention)
+- [ile to by kosztowało](attribute) trening [pierwszy](mention)
+- [ile trwa](attribute) [2](mention)?
+- [ile trwa](attribute) [pierwszy](mention)?
+- [ile trwa](attribute) szkolennie [3](mention)
+- [ile trwa](attribute) szkolennie [czwarty](mention)?
+- [ile trwa](attribute) szkolennie [drugi](mention)
+- [ile trwa](attribute) szkolennie [trzeci](mention)
+- [ile trwa](attribute) [trzeci](mention)
+- [ile trwają dni](attribute) kurs [trzeci](mention)
+- [ile trwają dni](attribute) szkolennie [trzeci](mention)
+- [ile trwają dni](attribute) trening [drugi](mention)
+- [ile trwają dni](attribute) [trzeci](mention)?
+- [jak wygląda godzinowo](attribute) [3](mention)
+- [jak wygląda godzinowo](attribute) szkolennie [czwarty](mention)?
+- [jak wygląda godzinowo](attribute) szkolennie [piąty](mention)
+- [jak wygląda godzinowo](attribute) trening [1](mention)
+- [jak wygląda godzinowo](attribute) trening [pierwszy](mention)
+- [jaka jest stawka](attribute) [2](mention)
+- [jaka jest stawka](attribute) [czwarty](mention)?
+- [jaka jest stawka](attribute) [pierwszy](mention)?
+- [jaka wiedza jest potrzebna](attribute) [4](mention)?
+- [jaka wiedza jest potrzebna](attribute) [czwarty](mention)
+- [jaka wiedza jest potrzebna](attribute) kurs [4](mention)
+- [jaka wiedza jest potrzebna](attribute) kurs [trzeci](mention)
+- [jaka wiedza jest potrzebna](attribute) trening [4](mention)
+- [jaka wiedza jest potrzebna](attribute) trening [5](mention)?
+- [jaki ma czas trwania](attribute) kurs [2](mention)
+- [jaki ma czas trwania](attribute) szkolennie [czwarty](mention)?
+- [jaki ma czas trwania](attribute) szkolennie [pierwszy](mention)
+- [jaki ma koszt](attribute) [1](mention)?
+- [jaki ma koszt](attribute) [2](mention)
+- [jaki ma koszt](attribute) [czwarty](mention)?
+- [jaki ma koszt](attribute) [pierwszy](mention)?
+- [jaki ma koszt](attribute) [piąty](mention)?
+- [jaki ma koszt](attribute) szkolennie [drugi](mention)?
+- [jakie ma ceny](attribute) [drugi](mention)
+- [jakie ma ceny](attribute) kurs [2](mention)?
+- [jakie ma ceny](attribute) kurs [4](mention)?
+- [jakie ma ceny](attribute) [piąty](mention)
+- [jakie ma ceny](attribute) szkolennie [1](mention)?
+- [jakie ma ceny](attribute) szkolennie [2](mention)
+- [jakie ma ceny](attribute) trening [3](mention)
+- [jakie mają wymagania](attribute) [4](mention)?
+- [jakie mają wymagania](attribute) szkolennie [piąty](mention)?
+- [jakie mają wymagania](attribute) trening [2](mention)
+- [jakie są koszta](attribute) [2](mention)
+- [jakie są koszta](attribute) [2](mention)?
+- [jakie są koszta](attribute) [3](mention)?
+- [jakie są koszta](attribute) [drugi](mention)
+- [jakie są koszta](attribute) kurs [piąty](mention)?
+- [jakie są koszta](attribute) szkolennie [drugi](mention)?
+- [jakie są koszta](attribute) trening [2](mention)?
+- [jakie są koszty](attribute) [2](mention)
+- [jakie są koszty](attribute) [2](mention)?
+- [jakie są koszty](attribute) [4](mention)?
+- [jakie są koszty](attribute) [pierwszy](mention)?
+- [jakie są koszty](attribute) trening [2](mention)?
+- [jakie są koszty](attribute) trening [5](mention)?
+- [jakie są wymagania](attribute) [5](mention)?
+- [jakie są wymagania](attribute) [czwarty](mention)
+- [jakie są wymagania](attribute) [drugi](mention)
+- [jakie są wymagania](attribute) [drugi](mention)?
+- [jakie są wymagania](attribute) kurs [2](mention)
+- [jakie są wymagania](attribute) kurs [piąty](mention)?
+- [jakiego są kosztu](attribute) [1](mention)?
+- [jakiego są kosztu](attribute) [czwarty](mention)?
+- [jakiego są kosztu](attribute) trening [5](mention)?
+- [jakiego są kosztu](attribute) [trzeci](mention)
+- [jakiej wiedzy wymaga](attribute) [5](mention)
+- [jakiej wiedzy wymaga](attribute) kurs [2](mention)?
+- [jakiej wiedzy wymaga](attribute) kurs [3](mention)
+- [jakiej wiedzy wymaga](attribute) kurs [4](mention)?
+- [jakiej wiedzy wymaga](attribute) [pierwszy](mention)
+- [jakiej wiedzy wymaga](attribute) szkolennie [2](mention)?
+- [jakiej wiedzy wymaga](attribute) szkolennie [pierwszy](mention)
+- [jakiej wiedzy wymaga](attribute) szkolennie [trzeci](mention)?
+- [jakiemu możemy sie spodziewać kosztowi](attribute) [1](mention)?
+- [jakiemu możemy sie spodziewać kosztowi](attribute) [pierwszy](mention)
+- [jakiemu możemy sie spodziewać kosztowi](attribute) szkolennie [trzeci](mention)?
+- [jakiemu możemy sie spodziewać kosztowi](attribute) trening [1](mention)?
+- [jakim kosztom](attribute) [piąty](mention)
+- [jakim kosztom](attribute) szkolennie [4](mention)?
+- [jakim kosztom](attribute) szkolennie [trzeci](mention)?
+- [jaką ma cenę](attribute) [4](mention)
+- [jaką ma cenę](attribute) [4](mention)?
+- [jaką ma cenę](attribute) kurs [4](mention)?
+- [jaką ma cenę](attribute) [piąty](mention)
+- [jaką ma cenę](attribute) szkolennie [3](mention)?
+- [jaką ma cenę](attribute) trening [5](mention)
+- [jaką ma cenę](attribute) trening [pierwszy](mention)?
+- [jaką ma wartość](attribute) [czwarty](mention)?
+- [jaką potrzeba wiedze](attribute) [5](mention)?
+- [jaką potrzeba wiedze](attribute) [czwarty](mention)?
+- [jaką potrzeba wiedze](attribute) [drugi](mention)
+- [jaką potrzeba wiedze](attribute) [pierwszy](mention)?
+- [jaką potrzebuję wiedzę](attribute) [5](mention)
+- [jaką potrzebuję wiedzę](attribute) [drugi](mention)?
+- [jaką potrzebuję wiedzę](attribute) szkolennie [2](mention)
+- [jaką potrzebuję wiedzę](attribute) szkolennie [czwarty](mention)?
+- [jaką wiedzę potrzeba](attribute) [4](mention)?
+- [jaką wiedzę potrzeba](attribute) [5](mention)?
+- [jaką wiedzę potrzeba](attribute) [czwarty](mention)?
+- [jaką wiedzę potrzeba](attribute) kurs [1](mention)
+- [jaką wiedzę potrzeba](attribute) kurs [czwarty](mention)
+- [jaką wiedzę potrzeba](attribute) trening [1](mention)
+- [jaką wiedzę potrzeba](attribute) trening [piąty](mention)
+- [jest jakiej wartości](attribute) [pierwszy](mention)
+- [jest jakiej wartości](attribute) [pierwszy](mention)?
+- [jest jakim kosztem](attribute) [1](mention)?
+- [jest jakim kosztem](attribute) [3](mention)
+- [jest jakim kosztem](attribute) [5](mention)?
+- [jest jakim kosztem](attribute) kurs [3](mention)
+- [jest jakim kosztem](attribute) [piąty](mention)?
+- [jest jakim kosztem](attribute) szkolennie [czwarty](mention)
+- [jest o jakich stawkach](attribute) kurs [pierwszy](mention)
+- [jest o jakich stawkach](attribute) [pierwszy](mention)?
+- [jest o jakich stawkach](attribute) trening [1](mention)
+- [jest o jakim koszcie](attribute) kurs [drugi](mention)?
+- [jest o jakim koszcie](attribute) kurs [piąty](mention)?
+- [jest o jakim koszcie](attribute) kurs [trzeci](mention)
+- [jest o jakim koszcie](attribute) szkolennie [3](mention)
+- [jest w jakich godzinach](attribute) [1](mention)
+- [jest w jakich godzinach](attribute) [3](mention)?
+- [jest w jakich godzinach](attribute) [5](mention)
+- [jest w jakich godzinach](attribute) [drugi](mention)
+- [jest w jakich godzinach](attribute) [drugi](mention)?
+- [jest w jakich godzinach](attribute) kurs [1](mention)?
+- [jest w jakich godzinach](attribute) [pierwszy](mention)
+- [jest w jakich godzinach](attribute) [piąty](mention)
+- [kosztami](attribute) [1](mention)?
+- [kosztami](attribute) [2](mention)
+- [kosztami](attribute) [3](mention)
+- [kosztami](attribute) [drugi](mention)?
+- [kosztami](attribute) kurs [3](mention)
+- [kosztami](attribute) kurs [pierwszy](mention)?
+- [kosztami](attribute) [pierwszy](mention)
+- [kosztami](attribute) szkolennie [trzeci](mention)?
+- [ma jaka stawke](attribute) [4](mention)
+- [ma jaka stawke](attribute) [drugi](mention)?
+- [ma jaka stawke](attribute) trening [4](mention)?
+- [ma jaka stawke](attribute) [trzeci](mention)
+- [ma jaka stawkę](attribute) szkolennie [2](mention)?
+- [ma jaka stawkę](attribute) szkolennie [4](mention)
+- [ma jakie stawki](attribute) [piąty](mention)?
+- [ma jakie stawki](attribute) trening [drugi](mention)
+- [ma jakie stawki](attribute) [trzeci](mention)?
+- [ma jaką stawke](attribute) [drugi](mention)?
+- [ma jaką stawke](attribute) kurs [2](mention)?
+- [ma jaką stawke](attribute) kurs [czwarty](mention)
+- [ma jaką stawke](attribute) kurs [piąty](mention)?
+- [ma jaką stawke](attribute) trening [czwarty](mention)
+- [ma jaką stawkę](attribute) [czwarty](mention)
+- [ma jaką stawkę](attribute) [czwarty](mention)?
+- [ma jaką stawkę](attribute) [drugi](mention)
+- [ma jaką stawkę](attribute) szkolennie [2](mention)
+- [ma jaką stawkę](attribute) szkolennie [pierwszy](mention)
+- [ma jaką stawkę](attribute) trening [4](mention)?
+- [mają wymaganie](attribute) [2](mention)?
+- [mają wymaganie](attribute) [drugi](mention)?
+- [mają wymaganie](attribute) kurs [4](mention)
+- [mają wymaganie](attribute) kurs [czwarty](mention)?
+- [mają wymaganie](attribute) trening [5](mention)
+- [mają wymaganiu](attribute) [4](mention)
+- [mają wymaganiu](attribute) [4](mention)?
+- [mają wymaganiu](attribute) [drugi](mention)?
+- [mają wymaganiu](attribute) kurs [czwarty](mention)
+- [mają wymaganiu](attribute) kurs [piąty](mention)
+- [mają wymaganiu](attribute) [piąty](mention)
+- [mają wymaganiu](attribute) szkolennie [pierwszy](mention)?
+- [mają wymagań](attribute) szkolennie [5](mention)
+- [mają wymagań](attribute) trening [pierwszy](mention)
+- [o jakich stawek mówimy](attribute) [3](mention)?
+- [o jakich stawek mówimy](attribute) [drugi](mention)
+- [o jakich stawek mówimy](attribute) [pierwszy](mention)
+- [o jakich stawek mówimy](attribute) [piąty](mention)
+- [o jakich stawek mówimy](attribute) trening [2](mention)
+- [o jakich stawek mówimy](attribute) trening [czwarty](mention)
+- [o jakich stawek mówimy](attribute) trening [trzeci](mention)
+- [o jakich wymaganiach](attribute) trening [drugi](mention)
+- [o jakich wymaganiach](attribute) trening [trzeci](mention)?
+- [o jakiej cenie](attribute) [3](mention)
+- [o jakiej cenie](attribute) [czwarty](mention)?
+- [o jakiej cenie](attribute) kurs [3](mention)?
+- [o jakiej cenie](attribute) kurs [trzeci](mention)
+- [o jakiej cenie](attribute) trening [5](mention)
+- [są o jakich wartościach](attribute) [1](mention)
+- [są o jakich wartościach](attribute) [3](mention)?
+- [są o jakich wartościach](attribute) kurs [2](mention)?
+- [są o jakich wartościach](attribute) szkolennie [3](mention)?
+- [są wymagające](attribute) [2](mention)?
+- [są wymagające](attribute) [czwarty](mention)
+- [są wymagające](attribute) kurs [piąty](mention)?
+- [są wymagające](attribute) szkolennie [4](mention)?
+- [są wymagające](attribute) szkolennie [pierwszy](mention)
+- [trwa dniami](attribute) [1](mention)
+- [trwa dniami](attribute) [3](mention)
+- [trwa dniami](attribute) kurs [5](mention)?
+- [trwa dniami](attribute) szkolennie [trzeci](mention)
+- [trwa ile godzin](attribute) [czwarty](mention)?
+- [trwa ile godzin](attribute) kurs [5](mention)?
+- [trwa ile godzin](attribute) kurs [czwarty](mention)
+- [trwa ile godzin](attribute) kurs [trzeci](mention)?
+- [trwa ile godzin](attribute) [piąty](mention)
+- [trwa ile godzin](attribute) szkolennie [2](mention)
+- [trwa ile godzin](attribute) trening [2](mention)
+- [w jakich cenach](attribute) [2](mention)
+- [w jakich cenach](attribute) kurs [3](mention)?
+- [w jakich cenach](attribute) trening [czwarty](mention)
+- [w jakich cenach](attribute) trening [piąty](mention)?
+- [w jakich mieści się kosztach](attribute) [czwarty](mention)?
+- [w jakich mieści się kosztach](attribute) [drugi](mention)
+- [w jakich mieści się kosztach](attribute) [piąty](mention)
+- [w jakich mieści się kosztach](attribute) szkolennie [5](mention)
+- [w jakich mieści się kosztach](attribute) szkolennie [pierwszy](mention)
+- [w jakich mieści się kosztach](attribute) trening [5](mention)
+- [w jakiej są stawce](attribute) [2](mention)?
+- [w jakiej są stawce](attribute) [piąty](mention)
+- [wymaganiami](attribute) [4](mention)
+- [wymaganiami](attribute) kurs [drugi](mention)?
+- [wymaganiami](attribute) szkolennie [4](mention)
+- [wymaganiami](attribute) trening [pierwszy](mention)?
+- [z jakimi cenami](attribute) [2](mention)?
+- [z jakimi cenami](attribute) trening [pierwszy](mention)?
+- [z jaką jest stawką](attribute) [1](mention)?
+- [z jaką jest stawką](attribute) [3](mention)?
+- [z jaką jest stawką](attribute) szkolennie [1](mention)
+- [z jaką jest stawką](attribute) trening [4](mention)
+- [z jaką jest stawką](attribute) trening [czwarty](mention)?
+- [z jaką jest stawką](attribute) [trzeci](mention)?
+
+## intent:query_entities
+- chciałbym pokaż mi kursom?
+- chciałbym poszukaj kursom?
+- chciałbym poszukujemy kursów
+- chciałbym szukam treningiem
+- chciałbym szukamy treningiem?
+- chciałbym wypisz kursu
+- chciałbym znajdź kursami?
+- chcielibyśmy pokaż mi kursie
+- cześć chciałbym poszukujemy kursami?
+- cześć chciałbym poszukuję kursach?
+- cześć chciałbym poszukuję kursem?
+- cześć napisz szkoleniu?
+- cześć poszukuję szkolenie?
+- cześć szukam szkoleniach?
+- cześć szukamy treningów
+- dobry wieczór chciałbym pokaż szkoleniu
+- dobry wieczór chcielibyśmy poszukaj treningi?
+- dobry wieczór napisz treningami
+- dobry wieczór prosimy znajdź treningom?
+- dobry wieczór proszę znajdź kurs?
+- dobry wieczór wypisz szkolenie?
+- dzień dobry chcielibyśmy stwórz listę treningiem?
+- dzień dobry poszukujemy kursach
+- dzień dobry znajdź kursach
+- dzień dobry zwracamy się z prośbą pokaż treningiem
+- hej pokaż treningom?
+- hej poszukaj kursu?
+- hej poszukujemy treningom?
+- hej szukam szkoleniach
+- napisz kursami?
+- napisz kursu?
+- napisz szkolenia?
+- napisz szkoleniami
+- napisz szkolenie?
+- napisz szkoleniem?
+- napisz szkoleniom?
+- napisz szkoleniu?
+- napisz trening?
+- napisz treningach?
+- napisz treningi?
+- napisz treningiem?
+- napisz treningu
+- napisz treningów
+- napisz treningów?
+- pokaż kurs?
+- pokaż kursie?
+- pokaż kursu?
+- pokaż kursy?
+- pokaż kursów
+- pokaż kursów?
+- pokaż mi szkoleniach?
+- pokaż mi treningami?
+- pokaż mi treningi?
+- pokaż mi treningowi
+- pokaż mi treningu?
+- pokaż szkolenia?
+- pokaż szkoleniu?
+- pokaż trening?
+- pokaż treningi?
+- poprosimy pokaż szkoleniu
+- poprosimy poszukujemy szkolenia?
+- poprosimy szukamy trening
+- poprosze pokaż mi kursowi
+- poprosze poszukaj szkoleń?
+- poproszę pokaż mi kursem
+- poproszę szukamy kursem?
+- poszukaj kursom?
+- poszukaj szkoleniami?
+- poszukaj szkoleniom?
+- poszukaj szkoleniu?
+- poszukaj treningach?
+- poszukaj treningów?
+- poszukujemy kurs?
+- poszukujemy kursami?
+- poszukujemy kursom?
+- poszukujemy szkolenie
+- poszukujemy szkoleniem?
+- poszukujemy szkoleniom?
+- poszukujemy treningach?
+- poszukujemy treningom
+- poszukujemy treningowi?
+- poszukujemy treningu?
+- poszukujemy treningów
+- poszukuję kursowi?
+- poszukuję kursów?
+- poszukuję treningiem?
+- poszukuję treningowi?
+- prosimy pokaż mi kursami?
+- prosimy poszukujemy treningom?
+- prosimy szukamy kursach
+- proszę pokaż mi treningowi
+- proszę stwórz listę trening?
+- siemka napisz szkoleniu
+- siemka pokaż mi treningom?
+- siemka poprosimy poszukaj kursów?
+- siemka poszukaj szkoleniach
+- siemka zwracam się z prośbą poszukujemy kursem
+- stwórz listę kursem?
+- stwórz listę kursie?
+- stwórz listę kursu?
+- stwórz listę szkoleniami?
+- stwórz listę szkolenie?
+- stwórz listę treningowi?
+- szukam kursem
+- szukam kursem?
+- szukam kursowi?
+- szukam poszukuję szkoleniami?
+- szukam szkolenie?
+- szukam szkoleniu?
+- szukam trening
+- szukam trening?
+- szukam treningami?
+- szukam treningów?
+- szukamy kursami?
+- szukamy kursem?
+- szukamy kursu?
+- szukamy treningach?
+- szukamy treningami
+- szukamy treningami?
+- szukamy treningom?
+- witam chciałbym poszukaj kursie
+- witam chciałbym poszukaj szkoleniu?
+- witam chcielibyśmy pokaż szkoleń?
+- witam czy mógłbyś napisz kurs
+- witam poproszę stwórz listę kursów
+- witam poszukuję treningach
+- witam szukamy szkolenia
+- witam wypisz trening
+- witam wypisz treningiem?
+- witam zwracam się z prośbą wypisz trening?
+- wypisz kurs?
+- wypisz kursowi
+- wypisz szkoleniami?
+- wypisz szkoleń
+- wypisz trening?
+- wypisz treningiem
+- wypisz treningu?
+- wypisz treningów?
+- znajdź kurs
+- znajdź kurs?
+- znajdź szkolenia?
+- znajdź szkoleniach?
+- znajdź szkoleń?
+- znajdź trening?
+- znajdź treningi?
+- znajdź treningów?
+- zwracamy się z prośbą poszukuję szkoleń
+- zwracamy się z prośbą szukamy treningi?
+- zwracamy się z prośbą wypisz trening
+- zwracamy się z prośbą znajdź kursem
+
+## intent:resolve_entity
+- Chciałbym dowiedzieć się więcej o treningu [drugim](mention)
+- [3](mention)
+- Chciałbym dowiedzieć się więcej o treningu [1](mention)
+- Chciałbym dowiedzieć się więcej o szkoleniu [1](mention)
+- Chciałbym dowiedzieć się więcej o kursie [1](mention)
+- Intersuje mnie szkolennie [4](mention).
+- Chciałbym dowiedzieć się więcej o treningu [5](mention)
+- Chciałbym dowiedzieć się więcej o treningu [2](mention)
+- Chciałbym dowiedzieć się więcej o szkoleniu [piątym](mention)
+- Intersuje mnie kurs [4](mention).
+- Intersuje mnie kurs [2](mention).
+- Intersuje mnie kurs [piąty](mention).
+- Intersuje mnie kurs [1](mention).
+- [pierwszy](mention)
+- Chciałbym dowiedzieć się więcej o treningu [piątym](mention)
+- Intersuje mnie szkolennie [trzeci](mention).
+- [4](mention)
+- Chciałbym dowiedzieć się więcej o kursie [5](mention)
+- [czwarty](mention)
+- Chciałbym dowiedzieć się więcej o kursie [drugim](mention)
+
+## synonym:price
+- stawkami
+- kosztowanemu
+- kosztowałam
+- koszt
+- kosztujcie
+- stawek
+- kosztem
+- wartość
+- kosztujeszv
+- kosztowałeś
+- kosztowałabyś
+- stawka
+- kosztującym
+- kosztowalibyście
+- cenom
+- ile kosztowałyby
+- stawką
+- kosztowałbym
+- kosztowaną
+- ma jaką stawke
+- jakie ma ceny
+- kosztowi
+- z jakimi cenami
+- cena jest największa
+- jest o jakim koszcie
+- stawko
+- w jakich cenach
+- kosztować
+- jaką ma cenę
+- cenach
+- kosztowaliby
+- kosztujących
+- ma jaka stawkę
+- ma jakie stawki
+- jakie są koszty
+- kosztujmy
+- ceny
+- kosztują
+- kosztowanie
+- są o jakich wartościach
+- kosztujcież
+- koszcie
+- wartościami
+- stawkach
+- kosztującego
+- jakiego są kosztu
+- kosztowałybyśmy
+- kosztami
+- o jakiej cenie
+- kosztującą
+- wartości
+- kosztowanym
+- ile kosztuje
+- kosztowani
+- kosztów
+- jaki ma koszt
+- kosztowaliście
+- kosztowaniu
+- ile to by kosztowało
+- kosztowałyście
+- cenę
+- kosztujące
+- kosztujemy
+- wartościom
+- o jakich stawek mówimy
+- ila ma kosztować
+- stawce
+- kosztowanego
+- ma jaką stawkę
+- jaka jest stawka
+- ma jaka stawke
+- jest jakim kosztem
+- ceno
+- kosztowała
+- kosztuję
+- stawki
+- kosztowaniach
+- kosztowany
+- kosztującej
+- stawkę
+- kosztowałby
+- kosztowałabym
+- kosztowana
+- kosztowanych
+- kosztach
+- kosztując
+- kosztowały
+- kosztowano
+- cenami
+- ile by kosztowaliby
+- kosztowaniom
+- kosztującymi
+- ile kosztują
+- kosztowalibyśmy
+- jakiemu możemy sie spodziewać kosztowi
+- koszta
+- ceną
+- wartościach
+- kosztujmyż
+- ile kosztowałby
+- kosztuj
+- kosztowałaby
+- kosztowałybyście
+- kosztującemu
+- kosztowaniami
+- ile kosztował
+- kosztował
+- kosztowałaś
+- kosztująca
+- kosztowałem
+- w jakich mieści się kosztach
+- kosztowanymi
+- jest jakiej wartości
+- cenie
+- kosztowaniem
+- cen
+- kosztowałyby
+- jakim kosztom
+- w jakiej są stawce
+- kosztowań
+- kosztowałyśmy
+- kosztowaliśmy
+- kosztowałbyś
+- kosztowane
+- kosztowałoby
+- jakie są koszta
+- kosztuje
+- kosztujże
+- kosztom
+- jaką ma wartość
+- kosztowanej
+- kosztujący
+- kosztowali
+- kosztowania
+- kosztujecie
+- stawkom
+- kosztu
+- wartością
+- jest o jakich stawkach
+- z jaką jest stawką
+- cena
+- koszty
+
+## synonym:prerequisites
+- wymaganiach
+- czego wymagają z wiedzy
+- wymagałbym
+- wymagajmyż
+- wymagałyby
+- wymagaliście
+- wiedzę
+- czego wymagają
+- wymaganiom
+- wymagam
+- wymaganiu
+- wymagałabym
+- wymagalibyśmy
+- wymagania
+- wymagałby
+- wymagałem
+- mają wymagań
+- wymagająca
+- wiedzach
+- wymagali
+- wymaga
+- wiedze
+- wymagamy
+- wymaganą
+- wiedzo
+- wiedza
+- wymagającej
+- wymagałybyśmy
+- jakie są wymagania
+- są wymagające
+- wymagaj
+- wymagając
+- wiedzą
+- wymaganymi
+- jaką potrzebuję wiedzę
+- jakie mają wymagania
+- wymagajmy
+- wymagasz
+- wymagacie
+- wiedzy
+- wymagałbyś
+- wymagało
+- wymaganego
+- wymagający
+- wymagajcie
+- wymagałoby
+- wymaganym
+- wymagaliby
+- wymagałyśmy
+- wiedzom
+- o jakich wymaganiach
+- wymagajże
+- wymagana
+- wymagałabyś
+- wymagany
+- wymagałyście
+- mają wymaganiu
+- wymaganemu
+- wymaganych
+- wymaganie
+- wymaganiem
+- czego wymagacie
+- wymagała
+- wymagają
+- wymagałeś
+- wymagałybyście
+- wymagającemu
+- wymagały
+- wymagającym
+- wymagane
+- wiedz
+- wymagające
+- wymagalibyście
+- wiedzami
+- wymagano
+- jakiej wiedzy wymaga
+- wymagałaby
+- jaką potrzeba wiedze
+- czego wymaga
+- wymagających
+- wymagał
+- wymagaliśmy
+- wymaganiami
+- jaka wiedza jest potrzebna
+- wymagani
+- mają wymaganie
+- wymagań
+- wymagałam
+- wymagającymi
+- wymagającą
+- wymaganej
+- wymagałaś
+- jaką wiedzę potrzeba
+- wymagającego
+- wymagajcież
+- wymagać
+
+## synonym:durationInDays
+- godzinami
+- trwamy
+- dniom
+- minutą
+- trwa
+- trwało
+- trwaniami
+- minutach
+- trwającym
+- czasie
+- trwałeś
+- trwającą
+- trwałam
+- trwanie
+- trwa dniami
+- trwałaby
+- trwałyśmy
+- trwaj
+- godziny
+- trwacie
+- trwałyby
+- trwajmyż
+- czasom
+- dni
+- trwałby
+- trwałoby
+- dzień
+- trwających
+- godzinowo
+- trwań
+- trwałybyśmy
+- czasami
+- trwający
+- godziną
+- dniu
+- trwali
+- minutami
+- trwaliśmy
+- trwasz
+- godzina
+- ile czasu trwają
+- trwającemu
+- czasowi
+- czasu
+- minucie
+- trwam
+- trwające
+- trwaniom
+- czasy
+- trwajcież
+- jaki ma czas trwania
+- czasach
+- minuta
+- trwałbym
+- trwałyście
+- godzinach
+- trwały
+- dniach
+- trwajcie
+- minuty
+- trwano
+- czasów
+- dniowi
+- trwałaś
+- trwałbyś
+- minut
+- trwającej
+- trwająca
+- czy są jednego dnia
+- czas
+- trwałabyś
+- trwają
+- trwaniu
+- godzino
+- trwania
+- trwajże
+- trwaniem
+- jest w jakich godzinach
+- minutom
+- trwał
+- trwałybyście
+- trwalibyśmy
+- trwaliby
+- trwałabym
+- trwającego
+- trwaniach
+- dnia
+- trwaliście
+- trwając
+- trwałem
+- trwającymi
+- trwa ile godzin
+- minuto
+- godzinom
+- ile trwa
+- trwała
+- trwajmy
+- dniami
+- godzin
+- godzinie
+- trwać
+- dnie
+- trwalibyście
+- ile trwają dni
+- minutę
+- dniem
+- czasem
+- godzinę
+- jak wygląda godzinowo
+
+## synonym:all
+- wszystkie informacje
+- wszystkiego
+- wszystkie
+- wszystko
+- wszystkim informacjom
+- wszystkiemu
+
+## synonym:5
+- piątemu
+- piątym
+- piąty
+
+## synonym:4
+- czwartym
+- czwartemu
+- czwarty
+
+## synonym:3
+- trzeciemu
+- trzecim
+- trzeci
+
+## synonym:2
+- drugiemu
+- drugi
+- drugim
+
+## synonym:1
+- pierwszemu
+- pierwszym
+- pierwszy
+
+

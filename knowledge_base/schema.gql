@@ -1,0 +1,44 @@
+define
+
+# entities
+
+course sub entity,
+  key title,
+  has price,
+  has prerequisites,
+  has durationInDays,
+  has addressedTo;
+
+mapping sub entity,
+  has mapping-key,
+  has mapping-value;
+
+mention-mapping sub mapping;
+entity-type-mapping sub mapping;
+attribute-mapping sub mapping;
+
+
+# relationships
+
+# attribute
+
+mapping-key sub attribute,
+  datatype string;
+
+mapping-value sub attribute,
+  datatype string;
+
+title sub attribute,
+  datatype string;
+
+price sub attribute,
+  datatype double;
+
+prerequisites sub attribute,
+  datatype string;
+
+durationInDays sub attribute,
+  datatype double;
+
+addressedTo sub attribute,
+  datatype string;

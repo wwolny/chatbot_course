@@ -1,0 +1,40 @@
+language: pl_spacy_model_morfeusz
+pipeline:
+  - name: SpacyNLP
+  - name: SpacyTokenizer
+  - name: SpacyFeaturizer
+  - name: RegexFeaturizer
+  - name: LexicalSyntacticFeaturizer
+  - name: CountVectorsFeaturizer
+  - name: CountVectorsFeaturizer
+    analyzer: "char_wb"
+    min_ngram: 1
+    max_ngram: 3
+  - name: DIETClassifier
+    epochs: 20
+    learning_rate: 0.01
+    number_of_transformer_layers: 2
+    transformer_size: 256
+    use_masked_language_model: True
+    drop_rate: 0.1
+    weight_sparcity: 0.8
+    batch_size: [64, 256]
+    embeddings_dimension: 20
+    hidden_layer_sizes:
+      text: [256, 64]
+  - name: EntitySynonymMapper
+  - name: ResponseSelector
+    epochs: 10
+
+policies:
+- batch_size: [16, 64]
+  epochs: 100
+#  max_training_samples: 300
+  name: TEDPolicy
+- fallback_action_name: "utter_rephrase"
+  name: "FallbackPolicy"
+  nlu_threshold: 0.4
+  core_threshold: 0.3
+- max_history: 5
+  name: MemoizationPolicy
+- name: MappingPolicy

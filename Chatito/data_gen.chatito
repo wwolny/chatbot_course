@@ -1,0 +1,178 @@
+%[compare_entities]('training': '300', 'testing': '40')
+    ~[find?] który ~[course:Nom:Sg:M3] @[attribute]~[q?]
+    ~[find?] jaki ~[course:Nom:Sg:M3] @[attribute]~[q?]
+    ~[find?] za który ~[course:Nom:Sg:M3] @[attribute]~[q?]
+    ~[find?] które ~[course:Nom:Sg:N] @[attribute]~[q?]
+    ~[find?] jakie ~[course:Nom:Sg:N] @[attribute]~[q?]
+    ~[find?] za które ~[course:Nom:Sg:N] @[attribute]~[q?]
+    ~[find] @[attribute]~[q?]
+    @[attribute]~[q?]
+
+%[query_search]('training': '300', 'testing': '40')
+    ~[hi?] ~[please?] ~[find:Acc?] ~[course:BSgPl] ~[about] @[technology]~[q?]
+    ~[hi?] ~[please?] ~[find:Acc?] ~[course:BSgPl] ~[about?] @[technology]~[q?]
+    @[technology]~[q?]
+    ~[about?] @[technology]~[q?]
+    ~[find:Acc?] ~[course:BSgPl] w @[technology] za co najwyżej @[max_price] ~[waluta?]
+    ~[find:Acc?] ~[course:BSgPl] w @[technology] za max @[max_price] ~[waluta?]
+    ~[find:Acc?] ~[course:BSgPl] w @[technology] za co najmniej @[min_price] ~[waluta?]
+    ~[find:Acc?] ~[course:BSgPl] w @[technology] za min @[min_price] ~[waluta?]
+    ~[find:Acc?] ~[course:BSgPl] w @[technology] po co najmniej @[min_price] ~[waluta?]
+    ~[find:Acc?] ~[course:BSgPl] w @[technology?] od @[min_price] ~[waluta?] do @[max_price] ~[waluta?]
+    ~[find:Acc?] ~[course:BSgPl] za między @[min_price] ~[waluta?], a @[max_price] ~[waluta?]
+    jakie są dostępne ~[course:BPl] ~[about?] @[technology]~[q?]
+    ~[find:Acc?] ~[course:BSgPl], które dotyczą @[technology?]
+    ~[find:Gen?]
+
+%[query_attribute]('training': '300', 'testing': '40')
+    @[attribute] ~[course:BSg]  @[mention#Acc]~[q?]
+    @[attribute] @[mention#Acc]~[q?]
+
+%[query_entities]('training': '150', 'testing': '20')
+    ~[hi?] ~[please?] ~[find] ~[course]~[q?]
+    ~[find] ~[course]~[q]
+
+%[resolve_entity]('training':'20', 'testing':'12')
+    ~[mention sentence]
+    @[mention#Acc]
+
+~[mention sentence]
+    Intersuje mnie ~[course:BSg] @[mention#Acc].
+    Chciałbym dowiedzieć się więcej o ~[course:LocSg] @[mention#Loc]
+
+~[q]
+    ?
+~[hi]
+    hej
+    siemka
+    witam
+    dzień dobry
+    dobry wieczór
+    cześć
+
+~[ask]
+    Ile
+    Jaki
+    Czy
+    ile
+    jaki
+    czy
+    który
+
+~[about]
+    o
+    w
+    na temat
+    o tematyce
+    dotyczący
+    z
+~[bye]
+    pa
+    papa
+    dowidzenia
+    Dziękuje, dowidzenia!
+    Dziękuję
+
+~[course:Nom:Sg:M3]
+    kurs
+    trening
+
+~[course:Nom:Sg:N]
+    szkolenie
+
+~[course:BPl]
+    kursy
+    szkolenia
+    treningi
+
+~[course:BSg]
+    kurs
+    szkolenie
+    trening
+
+~[course:BSgPl]
+    kurs
+    kursy
+    szkolenia
+    szkolenie
+    trening
+    treningi
+
+~[course:LocSg]
+    treningu
+    szkoleniu
+    kursie
+
+~[waluta]
+    zł
+    złotych
+    złoty
+    PLN
+    pln
+    Pln
+    ziko
+
+
+~[course]
+    kurs
+    kursach
+    kursami
+    kursem
+    kursie
+    kursom
+    kursowi
+    kursu
+    kursy
+    kursów
+    szkolenia
+    szkoleniach
+    szkoleniami
+    szkolenie
+    szkoleniem
+    szkoleniom
+    szkoleniu
+    szkoleń
+    trening
+    treningach
+    treningami
+    treningi
+    treningiem
+    treningom
+    treningowi
+    treningu
+    treningów
+
+~[please]
+    czy mógłbyś
+    proszę
+    szukam
+    chciałbym
+    chciałbym
+    proszę
+    prosimy
+    chcielibyśmy
+    zwracamy się z prośbą
+    zwracam się z prośbą
+    poprosze
+    poproszę
+    poprosimy
+
+~[find:Acc]
+    pokaż
+    znajdź
+    pokaż mi
+    szukam
+    szukamy
+    wypisz
+    napisz
+    poszukaj
+    poszukuję
+    poszukujemy
+
+~[find:Gen]
+    stwórz listę
+
+|technology.chatito
+|attribute.chatito
+|mention.chatito
+|price_val.chatito
