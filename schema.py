@@ -1,6 +1,12 @@
 schema = {
     "course": {
-        "attributes": ["title", "price", "prerequisites", "durationInDays", "addressedTo"],
+        "attributes": [
+            "title",
+            "price",
+            "prerequisites",
+            "durationInDays",
+            "addressedTo",
+        ],
         "key": "title",
         "representation": [
             "price",

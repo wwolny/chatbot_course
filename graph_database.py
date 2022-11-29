@@ -1,14 +1,14 @@
 import logging
-from typing import List, Dict, Any, Optional, Text
-from random import sample
-from grakn.client import GraknClient
 import re
+from random import sample
+from typing import Any, Dict, List, Optional, Text
+
+from grakn.client import GraknClient
 
 logger = logging.getLogger(__name__)
 
 
 class KnowledgeBase(object):
-
     def get_entities(
         self,
         entity_type: Text,
@@ -19,7 +19,11 @@ class KnowledgeBase(object):
         raise NotImplementedError("Method is not implemented.")
 
     def get_attribute_of(
-        self, entity_type: Text, key_attribute: Text, entity: Text, attribute: Text
+        self,
+        entity_type: Text,
+        key_attribute: Text,
+        entity: Text,
+        attribute: Text,
     ) -> List[Any]:
 
         raise NotImplementedError("Method is not implemented.")
@@ -37,17 +41,20 @@ class KnowledgeBase(object):
 
 class GraphDatabase(KnowledgeBase):
     """
-    GraphDatabase uses a grakn graph database to encode your domain knowledege. Make
-    sure to have the graph database set up and the grakn server running.
+    GraphDatabase uses a grakn graph database to encode domain
+    knowledge. Make sure to have the graph database set up and the
+    grakn server running.
     """
 
-    def __init__(self, uri: Text = "localhost:48555", keyspace: Text = "course"):
+    def __init__(
+        self, uri: Text = "localhost:48555", keyspace: Text = "course"
+    ):
         self.uri = uri
         self.keyspace = keyspace
 
     def _thing_to_dict(self, thing):
         """
-        Converts a thing (a grakn object) to a dict for easy retrieval of the thing's
+        Converts a thing to a dict for easy retrieval of the thing's
         attributes.
         """
         entity = {"id": thing.id, "type": thing.type().label()}
@@ -57,7 +64,8 @@ class GraphDatabase(KnowledgeBase):
 
     def _execute_entity_query(self, query: Text) -> List[Dict[Text, Any]]:
         """
-        Executes a query that returns a list of entities with all their attributes.
+        Executes a query that returns a list of entities with all
+        their attributes.
         """
         with GraknClient(uri=self.uri) as client:
             with client.session(keyspace=self.keyspace) as session:
@@ -73,10 +81,10 @@ class GraphDatabase(KnowledgeBase):
 
     def _execute_attribute_query(self, query: Text) -> List[Any]:
         """
-        Executes a query that returns the value(s) an entity has for a specific
-        attribute.
+        Executes a query that returns the value(s) an entity has for
+        a specific attribute.
         """
-        query = query.replace('\\', '')
+        query = query.replace("\\", "")
         with GraknClient(uri=self.uri) as client:
             with client.session(keyspace=self.keyspace) as session:
                 with session.transaction().read() as tx:
@@ -89,8 +97,9 @@ class GraphDatabase(KnowledgeBase):
         self, query: Text, relation_name: Text
     ) -> List[Dict[Text, Any]]:
         """
-        Execute a query that queries for a relation. All attributes of the relation and
-        all entities participating in the relation are part of the result.
+        Execute a query that queries for a relation. All attributes
+        of the relation and all entities participating in the relation
+        are part of the result.
         """
         with GraknClient(uri=self.uri) as client:
             with client.session(keyspace=self.keyspace) as session:
@@ -130,12 +139,16 @@ class GraphDatabase(KnowledgeBase):
         clause = ""
 
         if attributes:
-            clause = ",".join([f"has {a['key']} '{a['value']}'" for a in attributes])
+            clause = ",".join(
+                [f"has {a['key']} '{a['value']}'" for a in attributes]
+            )
             clause = ", " + clause
 
         return clause
 
-    def _get_contains_clause(self, contains: Optional[List[Dict[Text, Text]]] = None) -> Text:
+    def _get_contains_clause(
+        self, contains: Optional[List[Dict[Text, Text]]] = None
+    ) -> Text:
         """
         Construct the contains technology clause.
 
@@ -151,14 +164,15 @@ class GraphDatabase(KnowledgeBase):
         for condition in contains:
             for val in columns:
                 clause += f" {'{'}${val} contains ' {condition} ';{'}'} or"
-        clause = clause[:-2]    # delete last "or"
+        clause = clause[:-2]  # delete last "or"
         return clause
 
     def _get_price_clause(self, price_range: [] = None) -> Text:
         """
         Construct the price clause.
 
-        :param price_range: list of length two, first argument is min price threshold and second is max price threshold
+        :param price_range: list of length two, first argument is min
+                    price threshold and second is max price threshold
 
         :return: attribute clause as string
         """
@@ -175,7 +189,11 @@ class GraphDatabase(KnowledgeBase):
         return clause
 
     def get_attribute_of(
-        self, key_attribute: Text, entity: Text, attribute: Text, entity_type: Text = 'course'
+        self,
+        key_attribute: Text,
+        entity: Text,
+        attribute: Text,
+        entity_type: Text = "course",
     ) -> List[Any]:
         """
         Get the value of the given attribute for the provided entity.
@@ -202,11 +220,12 @@ class GraphDatabase(KnowledgeBase):
         self,
         attributes: Optional[List[Dict[Text, Text]]] = None,
         limit: int = 5,
-        entity_type: Text = 'course'
+        entity_type: Text = "course",
     ) -> List[Dict[Text, Any]]:
         """
-        Query the graph database for entities of the given type. Restrict the entities
-        by the provided attributes, if any attributes are given.
+        Query the graph database for entities of the given type.
+        Restrict the entities by the provided attributes,
+        if any attributes are given.
 
         :param attributes: list of attributes
         :param limit: maximum number of entities to return
@@ -222,7 +241,7 @@ class GraphDatabase(KnowledgeBase):
             f"get ${entity_type};"
         )
 
-        return sample(courses, min(limit,len(courses)))
+        return sample(courses, min(limit, len(courses)))
 
     def map(self, mapping_type: Text, mapping_key: Text) -> Text:
         """
@@ -234,17 +253,19 @@ class GraphDatabase(KnowledgeBase):
         :return: the mapping value
         """
         value = self._execute_attribute_query(
-            f"match $mapping isa {mapping_type}, has mapping-key '{mapping_key}', has mapping-value $v;get $v;"
+            f"match $mapping isa {mapping_type}, has mapping-key"
+            f"'{mapping_key}', has mapping-value $v;get $v;"
         )
 
         if value and len(value) == 1:
             return value[0]
 
     def validate_entity(
-        self, entity, key_attribute, attributes, entity_type: Text = 'course'
+        self, entity, key_attribute, attributes, entity_type: Text = "course"
     ) -> Dict[Text, Any]:
         """
-        Validates if the given entity has all provided attribute values.
+        Validates if the given entity has all provided attribute
+        values.
 
         :param entity: name of the entity
         :param key_attribute: key attribute of entity
@@ -271,14 +292,14 @@ class GraphDatabase(KnowledgeBase):
         limit: int = 5,
         price_range: [] = None,
         nlp: Optional = None,
-        entity_type: Text = 'course'
+        entity_type: Text = "course",
     ) -> List[Dict[Text, Any]]:
         """
         Get the list of best matching courses for the current state.
 
         :param contains: list of technologies
         :param limit: number of courses to return
-        :param price_range: price_range list with minimal or maximal value
+        :param price_range: price_range list with minimal or max value
         :param nlp: model of polish language
         :param entity_type: entity type default 'course'
 
@@ -310,10 +331,15 @@ class GraphDatabase(KnowledgeBase):
             re_clause = re_clause[:-1]
             re_clause = r"\b" + re_clause + r"\b"
             for c in courses:
-                c["priority"] = len(re.findall(re_clause, c.get("title"), re.IGNORECASE)) * 2 \
-                                + len(re.findall(re_clause, c.get("addressedTo"), re.IGNORECASE))
-            courses = sorted(courses, key=lambda i: i["priority"], reverse=True)
-            courses_out = courses[:min(limit, len(courses))]
+                c["priority"] = len(
+                    re.findall(re_clause, c.get("title"), re.IGNORECASE)
+                ) * 2 + len(
+                    re.findall(re_clause, c.get("addressedTo"), re.IGNORECASE)
+                )
+            courses = sorted(
+                courses, key=lambda i: i["priority"], reverse=True
+            )
+            courses_out = courses[: min(limit, len(courses))]
         else:
             courses_out = sample(courses, min(limit, len(courses)))
         return courses_out

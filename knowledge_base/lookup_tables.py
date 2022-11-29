@@ -1,9 +1,9 @@
-## Wojciech Wolny
-## zaktualizuj listę z nazwami kursów
+# Wojciech Wolny
+
 import os
-from grakn.client import GraknClient
 import re
 
+from grakn.client import GraknClient
 
 KEYSPACE = "course"
 URI = "localhost:48555"
@@ -12,7 +12,7 @@ URI = "localhost:48555"
 def execute_entity_query(query):
     with GraknClient(uri=URI) as client:
         with client.session(keyspace=KEYSPACE) as session:
-           with session.transaction().read() as read_transaction:
+            with session.transaction().read() as read_transaction:
                 result = read_transaction.query(query)
 
                 concepts = result.collect_concepts()

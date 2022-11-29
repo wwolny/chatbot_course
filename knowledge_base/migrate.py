@@ -1,12 +1,15 @@
-from grakn.client import GraknClient
 import csv
+
+from grakn.client import GraknClient
 
 
 def build_course_graph(inputs):
     with GraknClient(uri="localhost:48555") as client:
         with client.session(keyspace="course") as session:
             for input in inputs:
-                print("Loading from ["+input["data_path"]+"] into Grakn ...")
+                print(
+                    "Loading from [" + input["data_path"] + "] into Grakn ..."
+                )
                 load_data_into_grakn(input, session)
 
 
@@ -19,23 +22,33 @@ def load_data_into_grakn(input, session):
             transaction.query(graql_insert_query)
             transaction.commit()
 
-    print(f"Inserted {str(len(items))} items from [{input['data_path']}] into Grakn.")
+    print(
+        f"Inserted {str(len(items))} items from [{input['data_path']}]"
+        f"into Grakn."
+    )
 
 
 def course_template(course):
     graql_insert_query = "insert $course isa course"
     graql_insert_query += ', has title "' + course["title"] + '"'
-    graql_insert_query += ', has price ' + course["price"] + ''
-    graql_insert_query += ', has prerequisites "' + course["prerequisites"] + '"'
-    graql_insert_query += ', has durationInDays ' + course["durationInDays"] + ''
+    graql_insert_query += ", has price " + course["price"] + ""
+    graql_insert_query += (
+        ', has prerequisites "' + course["prerequisites"] + '"'
+    )
+    graql_insert_query += (
+        ", has durationInDays " + course["durationInDays"] + ""
+    )
     graql_insert_query += ', has addressedTo "' + course["addressedTo"] + '"'
     graql_insert_query += ";"
     return graql_insert_query
 
+
 def attribute_mapping_template(mapping):
     graql_insert_query = "insert $mapping isa attribute-mapping"
     graql_insert_query += ", has mapping-key '" + mapping["mapping-key"] + "'"
-    graql_insert_query += ", has mapping-value '" + mapping["mapping-value"] + "'"
+    graql_insert_query += (
+        ", has mapping-value '" + mapping["mapping-value"] + "'"
+    )
     graql_insert_query += ";"
     return graql_insert_query
 
@@ -43,7 +56,9 @@ def attribute_mapping_template(mapping):
 def mention_mapping_template(mapping):
     graql_insert_query = "insert $mapping isa mention-mapping"
     graql_insert_query += ", has mapping-key '" + mapping["mapping-key"] + "'"
-    graql_insert_query += ", has mapping-value '" + mapping["mapping-value"] + "'"
+    graql_insert_query += (
+        ", has mapping-value '" + mapping["mapping-value"] + "'"
+    )
     graql_insert_query += ";"
     return graql_insert_query
 
@@ -51,7 +66,9 @@ def mention_mapping_template(mapping):
 def entity_type_mapping_template(mapping):
     graql_insert_query = "insert $mapping isa entity-type-mapping"
     graql_insert_query += ", has mapping-key '" + mapping["mapping-key"] + "'"
-    graql_insert_query += ", has mapping-value '" + mapping["mapping-value"] + "'"
+    graql_insert_query += (
+        ", has mapping-value '" + mapping["mapping-value"] + "'"
+    )
     graql_insert_query += ";"
     return graql_insert_query
 
@@ -69,7 +86,7 @@ if __name__ == "__main__":
     inputs = [
         {
             "data_path": "./knowledge_base/data/courses",
-            "template": course_template
+            "template": course_template,
         },
         {
             "data_path": "./knowledge_base/data/attribute_mapping",
@@ -82,7 +99,7 @@ if __name__ == "__main__":
         {
             "data_path": "./knowledge_base/data/entity_type_mapping",
             "template": entity_type_mapping_template,
-        }
+        },
     ]
 
     build_course_graph(inputs)

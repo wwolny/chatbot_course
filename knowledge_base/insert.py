@@ -1,6 +1,3 @@
-## Dodaj jeden kurs
-## TODO:
-## dodawanie podanych wartości w funkcji (title, price, addresedTo, durationInDays)
 from grakn.client import GraknClient
 
 
@@ -14,7 +11,8 @@ def insert(graql_insert_query):
 
 if __name__ == "__main__":
     graql_insert_query = """
-    insert $c isa course, has title 'Administracja Apache Hadoop', has price '1950', has durationInDays '2';
+    insert $c isa course, has title 'Administracja Apache Hadoop', \
+    has price '1950', has durationInDays '2';
     """
 
     insert(graql_insert_query)
